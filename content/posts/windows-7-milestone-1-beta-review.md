@@ -1,6 +1,7 @@
 ---
 title: "Windows 7 Milestone 1 Beta First Impression"
 date: "2009-01-23"
+featured_image: "/images/windows-7-logo.jpg"
 categories: 
   - "computer"
   - "reviews"

@@ -1,6 +1,7 @@
 ---
 title: "the Holiday week."
 date: "2009-01-06"
+featured_image: "/images/513edyszzcl_sl500_aa240_.jpg"
 categories: 
   - "life"
 ---

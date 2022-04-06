@@ -16,33 +16,31 @@ While Euler angles are more intuitive using degrees, they present a few differen
 
 Another interesting scenario is how rotations affect each other. For my rotations on the y axis, any change along the x or z axis will affect the other axises automatically. This is concept known as _gimbal lock_. Maybe an example will help!
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/05/gimbalLock.unity3d" width="600" height="350"/\]
-
 Looking at the example, it looks as though they been transformed the exact same amount. Taking a peek at the code shows that they have different rotations. Code is using C#.
 
-[![](/images/get_source_button.png "Get Source Button")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/gimballock.rar)
+[![](/images/get_source_button.png "Get Source Button")](/unity3d/gimballock.rar)
 
-using UnityEngine;
-using System.Collections;
+    using UnityEngine;
+    using System.Collections;
 
-public class GimbalLock : MonoBehaviour {
+    public class GimbalLock : MonoBehaviour {
 
-	private Quaternion newDirection;
+    private Quaternion newDirection;
 
-	void Start () {
+    void Start () {
 
-		newDirection = new Quaternion();
-		newDirection  = Quaternion.Euler(-90, 45, 0);
+        newDirection = new Quaternion();
+        newDirection  = Quaternion.Euler(-90, 45, 0);
 
-	}
+    }
 
-	void Update () {
+    void Update () {
 
-		transform.rotation = Quaternion.Lerp(transform.rotation, newDirection, Time.deltaTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation, newDirection, Time.deltaTime);
 
         }
 
-}
+    }
 
 This is one of two scripts that are used for rotating the object. The other script is identical except for a different rotation.
 
@@ -58,7 +56,7 @@ One good thing about Quaternions is that they have a better way of handling uniq
 
 The example blocks look identical because Unity  converts Euler space to Quaternion space at assignment :
 
-newDirection  = Quaternion.Euler(-90, 45, 0);
+    newDirection  = Quaternion.Euler(-90, 45, 0);
 
 _newDirection_ is a Quaternion value, so Unity converts any Euler angles to make sure there are no problems before anything gets rotated. The angles are different in Eulers, but Quaternions "fix" the value so there is only one unique rotation amount for that orientation. That is why they both read the same rotation amount.
 

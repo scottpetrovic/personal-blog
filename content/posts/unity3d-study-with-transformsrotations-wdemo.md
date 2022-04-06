@@ -1,6 +1,7 @@
 ---
 title: "Unity3d: Study with transforms,rotations w/demo"
 date: "2009-11-09"
+featured_image: "/images/Unity3d_OSD1.gif"
 categories: 
   - "computer"
   - "game"
@@ -31,6 +32,6 @@ Since Box is just rotating around the y-axis, you only see that y value change w
 
 ## Set up files and source
 
-Here are the [source files](http://blog.scottpetrovic.com/wp-content/uploads/2009/11/vectorClass.rar) for the demo. I have some additional comments in the code on how things are put together or work. A couple notes is that I tried to make the buttons decoupled from the actual button functions. It probably isn't the most perfect code, but it works, so mehhh..
+Here are the [source files](/unity3d/vectorClass.rar) for the demo. I have some additional comments in the code on how things are put together or work. A couple notes is that I tried to make the buttons decoupled from the actual button functions. It probably isn't the most perfect code, but it works, so mehhh..
 
 Has anybody seen other examples that help learn the API with examples and working files such as this? I really haven't seen much out there with visual feedback on what is going on. Are there many other blogs out there that are doing the types of thing? I see a lot of "my first Unity project" post where they post some project, but there is little explanation, code or description.

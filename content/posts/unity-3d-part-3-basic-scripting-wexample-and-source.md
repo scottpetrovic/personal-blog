@@ -36,19 +36,16 @@ Go box man! Go! Don't fall off the edge!
 
 \[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2009/07/player\_link.unity3d" width="600" height="350"/\]
 
-Controls:
+## Controls
 
 - **Move** - W,A,S,D
 - **Jump** - spacebar **Run** - left shift
 
-[all of the project source files](http://blog.scottpetrovic.com/wp-content/uploads/2009/07/player_link.rar)
-
-Look at my other parts if interested:
-
-- [Unity3D: Part 1](http://blog.scottpetrovic.com/2009/06/unity-3d-2-5-part-one/)
-- [Unity3D: Part 2](http://blog.scottpetrovic.com/2009/07/unity-2-5-blender-lessons-part-two/)
+[all of the project source files](/unity3d/player_link.rar)
 
 FYI - [Wordpress plugin to show unity files](http://unity3d.com/support/resources/assets/unity-wordpress-blog-plugin)
+
+## Conclusion 
 
 Now that I am more familiar with the workflow of the entire process, I can focus more on functionality and the "cooler" things.
 

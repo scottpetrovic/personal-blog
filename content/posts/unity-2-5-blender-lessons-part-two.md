@@ -1,6 +1,7 @@
 ---
 title: "Unity 2.5 (Blender lessons): Part Two"
 date: "2009-07-11"
+featured_image: "/images/maka_blender_model.jpg"
 categories: 
   - "life"
 ---

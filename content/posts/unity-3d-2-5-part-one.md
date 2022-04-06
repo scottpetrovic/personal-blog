@@ -1,6 +1,7 @@
 ---
 title: "Unity 3d 2.5 Part One"
 date: "2009-06-15"
+featured_image: "/images/unityLogo.jpg"
 categories: 
   - "art"
   - "computer"
@@ -12,7 +13,9 @@ tags:
   - "unity-3d"
 ---
 
-[![unityLogo](/images/unityLogo.jpg "unityLogo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/unityLogo.jpg)There has been a lot of buzz about  [Unity3D](http://unity3d.com/), a new plugin that handles 3d much better than flash. It now works for Windows and can output to a lot of different platforms (Windows, Mac, Web, iPhone, Wii, etc). I read a few reviews on it from a couple different sources and it was a pretty mixed bag in terms of quality and use. I thought I would give it a try.
+[![unityLogo](/images/unityLogo.jpg "unityLogo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/unityLogo.jpg)
+
+There has been a lot of buzz about  [Unity3D](http://unity3d.com/), a new plugin that handles 3d much better than flash. It now works for Windows and can output to a lot of different platforms (Windows, Mac, Web, iPhone, Wii, etc). I read a few reviews on it from a couple different sources and it was a pretty mixed bag in terms of quality and use. I thought I would give it a try.
 
 I downloaded a copy (~120MB) and started rocking!
 

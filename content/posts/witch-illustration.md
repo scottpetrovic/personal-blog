@@ -1,6 +1,7 @@
 ---
 title: "Witch Illustration"
 date: "2009-01-18"
+featured_image: "/images/witch_color3_008-150x150.jpg"
 categories: 
   - "art"
   - "illustration"

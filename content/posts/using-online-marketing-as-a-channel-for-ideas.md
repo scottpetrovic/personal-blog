@@ -1,5 +1,6 @@
 ---
 title: "Using Online marketing as a channel for ideas"
+featured_image: "/images/online-marketing1-300x233.gif"
 date: "2009-01-14"
 ---
 

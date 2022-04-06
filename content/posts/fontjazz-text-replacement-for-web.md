@@ -1,6 +1,7 @@
 ---
 title: "FontJazz text replacement for web"
 date: "2009-06-02"
+featured_image: "/images/fontjazz.png"
 categories: 
   - "computer"
   - "web-design"
@@ -18,13 +19,13 @@ To get it to work, you go to the site and upload your font where it makes a map 
 
 It is only in Beta, so there is a problem with some fonts not displaying correctly. I contacted Rasmus (the creator) and worked with him to see what the problem was. I gave him my working files and this is his solution.
 
-> Seems like this is caused by glyphs with too much overlap - so the previous characters flows behind the next, causing the browser to quirk when it tries to layout the elements.
-> 
-> As a workaround, for now, try changing line 106 of fontjazz.js to:
-> 
-> adjust = metrics\[3\]-metrics\[1\]+2
-> 
-> this adds a little extra spacing between the characters - eventually you will be able to specify character spacing in the font configuration, but this should serve as a workaround for now...
+Seems like this is caused by glyphs with too much overlap - so the previous characters flows behind the next, causing the browser to quirk when it tries to layout the elements.
+
+As a workaround, for now, try changing line 106 of fontjazz.js to:
+
+    adjust = metrics\[3\]-metrics\[1\]+2
+
+this adds a little extra spacing between the characters - eventually you will be able to specify character spacing in the font configuration, but this should serve as a workaround for now...
 
 The font I gave him was called "Laine", which is a script font with larger widths then most font characters. The problem really was evident when there was space characters involved. Most fonts That are pretty uniform don't have problems.
 

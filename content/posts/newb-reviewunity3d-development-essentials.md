@@ -1,6 +1,7 @@
 ---
 title: "Noob Review:Unity3D Development Essentials"
 date: "2009-10-27"
+featured_image: "/images/1111790_study_hard_2.jpg"
 categories: 
   - "computer"
   - "game"
@@ -9,7 +10,9 @@ categories:
   - "unity3d"
 ---
 
-[![1111790_study_hard_2](/images/1111790_study_hard_2.jpg "1111790_study_hard_2")](http://blog.scottpetrovic.com/wp-content/uploads/2009/10/1111790_study_hard_2.jpg)I have been feeling really ambitious and decided to delve into Will Goldstone's new book: [_Unity Game Development Essentials_](http://www.packtpub.com/unity-2-5-game-development-guide/mid/231009vv93w4?utm_source=scottpetrovic.com%2Fblog&utm_medium=affiliate&utm_content=blog&utm_campaign=mdb_001181) (that is NOT me in the picture).
+[![1111790_study_hard_2](/images/1111790_study_hard_2.jpg "1111790_study_hard_2")](http://blog.scottpetrovic.com/wp-content/uploads/2009/10/1111790_study_hard_2.jpg)
+
+I have been feeling really ambitious and decided to delve into Will Goldstone's new book: [_Unity Game Development Essentials_](http://www.packtpub.com/unity-2-5-game-development-guide/mid/231009vv93w4?utm_source=scottpetrovic.com%2Fblog&utm_medium=affiliate&utm_content=blog&utm_campaign=mdb_001181) (that is NOT me in the picture).
 
 I heard the book was good by a few people in forums, but didn't have a lot of substance behind why it was good and the type of content and layout of the book.
 

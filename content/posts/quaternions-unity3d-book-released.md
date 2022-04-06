@@ -1,6 +1,7 @@
 ---
 title: "Quaternions & Unity3d Book Released!"
 date: "2009-10-08"
+featured_image: "/images/1223384_happy_girafes.jpg"
 categories: 
   - "computer"
   - "game"
@@ -8,7 +9,9 @@ categories:
   - "unity3d"
 ---
 
-[![1223384_happy_girafes](/images/1223384_happy_girafes.jpg "1223384_happy_girafes")](http://blog.scottpetrovic.com/wp-content/uploads/2009/10/1223384_happy_girafes.jpg)I have spent the past month learning and becoming frustrated with the concept of Quaternions. I thought it would be cooler to have some type of planetary gravity for my level where my character could fly to his heart's content around a sphere.
+[![1223384_happy_girafes](/images/1223384_happy_girafes.jpg "1223384_happy_girafes")](http://blog.scottpetrovic.com/wp-content/uploads/2009/10/1223384_happy_girafes.jpg)
+
+I have spent the past month learning and becoming frustrated with the concept of Quaternions. I thought it would be cooler to have some type of planetary gravity for my level where my character could fly to his heart's content around a sphere.
 
 **A LOT** harder than I thought!
 
