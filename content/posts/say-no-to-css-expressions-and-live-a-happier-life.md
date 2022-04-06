@@ -1,6 +1,7 @@
 ---
 title: "Say no to CSS expressions and live a happier life"
 date: "2009-04-04"
+featured_image: "/images/dontcrygirl.jpg"
 categories: 
   - "computer"
   - "life"
@@ -9,7 +10,7 @@ tags:
   - "css-expressions"
 ---
 
-\[caption id="attachment\_484" align="alignnone" width="200" caption="Don't cry, it is only CSS"\][![Don't cry, it is only CSS](/images/dontcrygirl.jpg "dontcrygirl")](http://blog.scottpetrovic.com/wp-content/uploads/2009/04/dontcrygirl.jpg)\[/caption\]
+[![Don't cry, it is only CSS](/images/dontcrygirl.jpg "dontcrygirl")](http://blog.scottpetrovic.com/wp-content/uploads/2009/04/dontcrygirl.jpg)
 
 This past week I have been reading a lot about these things called "CSS expressions" that I have never heard of. I read quite a bit about web trends and different techniques, but I have never run across this topic until this week.
 
@@ -31,12 +32,12 @@ In reference to the short article explaining the code, there were comments expla
 
 Since CSS expressions are just using javascript, it is much better to create a javascript file that performs a similar action.
 
-window.onload = checkWidth;
-window.onresize = checkWidth;
-function checkWidth(){
-	var wrapper = document.getElementById("wrapper");
-	wrapper.style.width = (document.body.clientWidth > 1280)? "1280px" : "auto";
-}
+    window.onload = checkWidth;
+    window.onresize = checkWidth;
+    function checkWidth(){
+        var wrapper = document.getElementById("wrapper");
+        wrapper.style.width = (document.body.clientWidth > 1280)? "1280px" : "auto";
+    }
 
 It seems crazy to use Javascript inside CSS because CSS just presents the data. Any calculations that can't be done in CSS should be done in Javascript. HTML structures and organizes, CSS styles, and Javascript deals with the functionality. They should never cross lines.
 

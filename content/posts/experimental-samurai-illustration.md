@@ -1,6 +1,7 @@
 ---
 title: "Experimental Samurai Illustration"
 date: "2009-03-13"
+featured_image: "/images/final_samurai_small.jpg"
 categories: 
   - "art"
   - "computer"

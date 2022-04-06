@@ -1,6 +1,7 @@
 ---
 title: "Character Illustration using mood boards"
 date: "2009-05-23"
+featured_image: "/images/tactics_illustration1.jpg"
 categories: 
   - "art"
   - "illustration"
@@ -15,13 +16,13 @@ Instead of doing a web mood board, I wanted to design a character that was simil
 
  
 
-### Design considerations
+## Design considerations
 
 When I started to design a few different characters, I started putting them in crazy poses with all kinds of foreshortening and action poses. I quickly found out that this was not the best way to design them. Character designs are more geared toward finding overall balance, costumes, colors, and descriptiveness when working on them. Losing detail because of limbs being hidden or odd poses is sub-optimal.
 
 Color is also a big consideration when developing the costumes. Too many different colors can make the characters appear too busy and detract from their face -which people end up concentrating on first. Too few colors make the character appear a little bland. The last two designs on the mood board above are nearing these extremes.
 
-### Final Character design
+## Final Character design
 
 [![tactics_illustration1](/images/tactics_illustration1.jpg "tactics_illustration1")](http://blog.scottpetrovic.com/wp-content/uploads/2009/05/tactics_illustration1.jpg)
 

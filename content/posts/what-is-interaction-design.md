@@ -1,6 +1,7 @@
 ---
 title: "What is interaction design?"
 date: "2009-05-04"
+featured_image: "/images/interface_design.jpg"
 categories: 
   - "computer"
   - "interaction-design"

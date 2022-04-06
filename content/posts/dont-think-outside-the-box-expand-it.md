@@ -1,11 +1,14 @@
 ---
 title: "Don't Think Outside the Box...Expand It"
 date: "2010-04-30"
+featured_image: "/images/boxThinking1.jpg"
 categories: 
   - "life"
 ---
 
-[![](/images/boxThinking1.jpg "boxThinking")](http://blog.scottpetrovic.com/wp-content/uploads/2010/04/boxThinking1.jpg)Learning about new subjects is important to me. This month I have been reading a book on a topic that gets a lot of people like me turned off and offended every time I hear the word : **Sales.**
+[![](/images/boxThinking1.jpg "boxThinking")](http://blog.scottpetrovic.com/wp-content/uploads/2010/04/boxThinking1.jpg)
+
+Learning about new subjects is important to me. This month I have been reading a book on a topic that gets a lot of people like me turned off and offended every time I hear the word : **Sales.**
 
 Why read about things you despise? For me, I had to take a step back and realize how little I knew about the topic. My fear and hatred come from the negative perspectives of what tv and movies portray. A stereotype that isn't rooted in any understanding or research.
 

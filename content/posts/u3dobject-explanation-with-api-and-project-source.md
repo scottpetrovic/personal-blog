@@ -25,7 +25,11 @@ One of the things that was the most frustrating was that some of the files in th
 
 [![get_source_button](/images/get_source_button.png "get_source_button")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/u3dObject_basic.rar)
 
-**Folder Structure and organization** [![u3dObject_sections](/images/u3dObject_sections.gif "u3dObject_sections")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/u3dObject_sections.gif) If you open up the BasicExample folder, you will see three sections: flash, html, and unity. The flash and unity sections have the source files that will have the different assets and scripts needed to build the swf and unity3d files. These folders are where you will spend most of your time in. The html section has the final web files that will be uploaded to the server. I set the system up so that when you publish your flash files, it will export to the swf folder of the html section. Likewise, when you build your unity3d application, you will build it in the unity folder of the html section.
+## Folder Structure and organization
+
+![u3dObject_sections](/images/u3dObject_sections.gif)
+
+If you open up the BasicExample folder, you will see three sections: flash, html, and unity. The flash and unity sections have the source files that will have the different assets and scripts needed to build the swf and unity3d files. These folders are where you will spend most of your time in. The html section has the final web files that will be uploaded to the server. I set the system up so that when you publish your flash files, it will export to the swf folder of the html section. Likewise, when you build your unity3d application, you will build it in the unity folder of the html section.
 
 The reason for this is partly because of how the framework is designed. Because communication between the two programs need javascript to link up flash and unity, putting the files in the final html section put them in the right place for javascript to work right. it is designed so you don't have to worry about javascript.
 
@@ -33,46 +37,23 @@ The two things that take time to learn are the two APIs for Unity and Flash. Wit
 
 ## Flash as a foundation
 
-< !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    < !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="js/u3dobject.js" type="text/javascript"></script>
+    <script src="js/unitydetect.vbs" language="VBScript"></script>
+    <script src="js/swfobject.js" type="text/javascript"></script>
 
-
-	External Interface Sample
-	
-	
-	
-	
-	
-    
-
-<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
-
-    
-
-<script src="js/u3dobject.js" type="text/javascript"></script>
-
-	
-	
-
-<script src="js/unitydetect.vbs" language="VBScript"></script>
-
-	
-
-<script src="js/swfobject.js" type="text/javascript"></script>
-
-    
-
-<script type="text/javascript">
-    function initialize()
-	{
-		
-		//$.u3dobject.embed("div_unity", "unity/game.unity3d" , {width:600, height: 500});
-<div></div>
-		var flashvars = { root_url: " "};
-		var params = { 'allowScriptAccess': 'always'};
-		var attributes = {};
-		attributes.id = "flash_content";
-		swfobject.embedSWF("swf/application.swf", "flash_content", "500", "300", "9.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
-	}
+    <script type="text/javascript">
+        function initialize()
+        {
+            //$.u3dobject.embed("div_unity", "unity/game.unity3d" , {width:600, height: 500});
+        <div></div>
+        var flashvars = { root_url: " "};
+        var params = { 'allowScriptAccess': 'always'};
+        var attributes = {};
+        attributes.id = "flash_content";
+        swfobject.embedSWF("swf/application.swf", "flash_content", "500", "300", "9.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
+    }
     </script>
 
  

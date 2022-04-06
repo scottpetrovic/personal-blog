@@ -1,6 +1,7 @@
 ---
 title: "Tweener project files & drawing application \"Flame\""
 date: "2010-03-18"
+featured_image: "/images/flame_sketch.jpg"
 categories: 
   - "art"
   - "game"
@@ -20,48 +21,46 @@ The Tweener scripts on the Unity forum was done a little while ago, so I had to 
 
 I don't need to provide a demo of something moving, but you can see how I set up the Tweener classes to make it work. If you want to use it in a project, you can just copy the whole tweener folder  over. You don't need to attach any scripts to any game objects. Just call the UnityTween class like in the scene file below.
 
-using UnityEngine;
-using System.Collections;
-
-public class CameraMove : MonoBehaviour
-{
+    using UnityEngine;
+    using System.Collections;
+    
+    public class CameraMove : MonoBehaviour
+    {
 
     public GameObject mainCam;
     private Transform targetTransform;
     private Vector3 targetRotate;
 
-	//need to instantiate TweenCall
-	//it is static so you only need to create one variable
-	private TweenCall TweenCall;
+    //need to instantiate TweenCall
+    //it is static so you only need to create one variable
+    private TweenCall TweenCall;
 
     void Awake()
     {
 
-		//current transformation
+        //current transformation
         mainCam.transform.position = new Vector3(0.0f, 3.0f, -3.0f);
         mainCam.transform.rotation = Quaternion.LookRotation( new Vector3(-19.0f, 0.0f,0.0f));
 
-		//target tramsformation
+        //target tramsformation
         targetRotate = new Vector3(17.7f,181.0f,0.0f );
 
         targetTransform = new GameObject().transform;
         targetTransform.position = new Vector3(0.05f, 1.4f, 0.6f);
 
-       //actual calling changing position and rotation. Can also change alpha
+        //actual calling changing position and rotation. Can also change alpha
         TweenCall.Tween(mainCam, "position", targetTransform.position, 2.0f, 0.0f, Ease.EaseOutElastic);
         TweenCall.Tween(mainCam, "rotation", targetRotate, 2.0f, 0.0f, Ease.EaseOutElastic);
 
     }
 
-}//end class
+    } //end class
 
 This is the main script file that does everything. You assign the main camera via the inspector. The code defines points to transition and does the transition when the script starts. You can see all of the source below how to implement it.
 
-[Get the project files with Tweener](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/Tweener.rar)
-
 ## Flame Drawing
 
-[![flame_sketch](/images/flame_sketch.jpg "flame_sketch")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/flame_sketch.jpg)
+![flame_sketch](/images/flame_sketch.jpg "flame_sketch")
 
 Coolest program I have seen in a while for drawing smoke/flame things. Not Unity related, but awesome none the less. I think I will try to integrate this with some paintings I try to do in the future. It is built with a programming language called _processing_ that is built on Java.  It takes a while to get use to what looks good. Loose and fast seems to give better results than tight and slow strokes. [Make something magical](http://www.escapemotions.com/experiments/flame/index.html#top) with it. (needs Java installed to work)
 

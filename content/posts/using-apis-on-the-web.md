@@ -1,6 +1,7 @@
 ---
 title: "Using APIs on the web"
 date: "2009-04-11"
+featured_image: "/images/ape_figure.jpg"
 categories: 
   - "computer"
   - "web-design"
@@ -8,7 +9,9 @@ tags:
   - "api"
 ---
 
-![ape_figure](/images/ape_figure.jpg "ape_figure")APIs use to be a topic that I would shun away from anytime I would hear it mentioned. I knew it stood for "application programming interface", but had no idea what it really meant or how it worked beyond that.
+![ape_figure](/images/ape_figure.jpg "ape_figure")
+
+APIs use to be a topic that I would shun away from anytime I would hear it mentioned. I knew it stood for "application programming interface", but had no idea what it really meant or how it worked beyond that.
 
 To put it in simple terms, APIs are part of an application or site that you can access and do what you want with it. That might mean being able to retrieve your facebook photos, or doing custom searches with Youtube.
 
@@ -26,7 +29,7 @@ Yes, you can go to google maps to find a company's location, but it would be eas
 
 Using APIs are all about saving time by leveraging existing technologies. Save people a few clicks or extra windows in a browser and they will add value to your site experience.
 
-There are over[600 web APIs](http://blog.programmableweb.com/2008/01/14/600-web-apis/) that you can use. Here is a list of the [top 15 APIs](http://www.pingable.org/the-top-15-web-apis-for-your-site/) that are in use now.
+There are over [600 web APIs](http://blog.programmableweb.com/2008/01/14/600-web-apis/) that you can use. Here is a list of the [top 15 APIs](http://www.pingable.org/the-top-15-web-apis-for-your-site/) that are in use now.
 
 Once you find a good reason to use an API, then you can do a little more research
 

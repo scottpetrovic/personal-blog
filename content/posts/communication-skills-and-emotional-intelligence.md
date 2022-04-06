@@ -1,11 +1,14 @@
 ---
 title: "Communication skills and Emotional Intelligence"
 date: "2009-05-15"
+featured_image: "/images/girl_talking.jpg"
 categories: 
   - "life"
 ---
 
-[![girl_talking](/images/girl_talking.jpg "girl_talking")](http://blog.scottpetrovic.com/wp-content/uploads/2009/05/girl_talking.jpg)I have worked at a few different jobs so far in my life, but noticed that the biggest reason why things go wrong is poor communication. I have heard it from a number of different sources, but it is becoming more and more true as the years roll by. It is easy to forget about things when you are consumed with trying to meet deadlines, or juggling multiple different projects.
+[![girl_talking](/images/girl_talking.jpg "girl_talking")](http://blog.scottpetrovic.com/wp-content/uploads/2009/05/girl_talking.jpg)
+
+I have worked at a few different jobs so far in my life, but noticed that the biggest reason why things go wrong is poor communication. I have heard it from a number of different sources, but it is becoming more and more true as the years roll by. It is easy to forget about things when you are consumed with trying to meet deadlines, or juggling multiple different projects.
 
 In web design the biggest time-waster is not getting iterative feedback throughout the whole design process. It is easy to want to really flesh out and go into a lot of detail before you show anything. For different web projects that I have worked on, it is  good to get an idea roughed out and shown as early as possible. It is tempting to want to show them a final, "cooler" version, but having to redo it because wrong direction is all too common. This eats up too much of your time and makes the process take longer.
 
@@ -27,6 +30,8 @@ For example, getting angry at employees and using destructive criticism contribu
 
 While suppressing bad emotions isn't healthy,  it isn't professional to express them in a working environment. Deep breathing, taking a 5 minute break, or other measures should be done to clear your mind. It will make you appear more confident, amiable, and a better team member. Another great blog I started reading is [Mindtools](http://www.mindtools.com/) which talks about personal and business etiquette and communication skills.
 
-### My EI
+### My EI Score
 
-[![ei-test](/images/ei-test.gif "ei-test")](http://blog.scottpetrovic.com/wp-content/uploads/2009/05/ei-test.gif)I went to [queendom.com](http://www.queendom.com/tests/access_page/index.htm?idRegTest=1121) and took a questionnaire about emotional intelligence and this was the results. Be aware that it is a long 106 questions. Some of the sections show you a series of people and it tells asks you what they are feeling. Fun! My average EQ shows that I have much to learn in this area. How exciting!
+[![ei-test](/images/ei-test.gif "ei-test")](http://blog.scottpetrovic.com/wp-content/uploads/2009/05/ei-test.gif)
+
+I went to [queendom.com](http://www.queendom.com/tests/access_page/index.htm?idRegTest=1121) and took a questionnaire about emotional intelligence and this was the results. Be aware that it is a long 106 questions. Some of the sections show you a series of people and it tells asks you what they are feeling. Fun! My average EQ shows that I have much to learn in this area. How exciting!

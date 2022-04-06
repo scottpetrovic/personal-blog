@@ -7,11 +7,17 @@ categories:
   - "unity3d"
 ---
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/02/kill5.unity3d" width="600" height="350"/\] **Controls:**
+[Kill 5 Unity3D File](/unity3d/kill5.unity3d)
 
-**move - W, A, S, D (or arrow keys) run - left shift jump - spacebar attack - right shift**
 
-**Source Code Project:[Get the files](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/GameArchitectureKill5.rar)**
+## Controls:
+
+- Move - W, A, S, D (or arrow keys) 
+- Run - left shift 
+- jump - spacebar 
+- attack - right shift**
+
+[Kill 5 Source code](/unity3d/GameArchitectureKill5.rar)
 
 I tried to keep the game simplistic so explaining the structure would be easier. Before I talk too much, take note that I am still early in my game programming life, so how I organized it is the way I do it. There might be better ways out there, but I am not seasoned enough to really understand different approaches to it. I am a beginner - and this is how a beginner like me tries to tackle learning about this.
 
@@ -23,7 +29,7 @@ I made these into folders and wanted to try to keep each area contained. The gam
 
 You can see a basic object structure where I try to keep everything separated. If I want to change something related to the enemy, I can go into that folder and know all of the main enemy scripts will be contained in there. I also know there will be scripts and features that I have not created yet, so it will be easier to know what needs to be updated and referenced if I can keep them all together.
 
-\[caption id="attachment\_990" align="aligncenter" width="306" caption="Folder structure in my solution explorer (VS2008)"\][![Folder structure in my solution explorer (VS2008)](/images/folder-structure.gif "folder-structure")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/folder-structure.gif)\[/caption\]
+![Folder structure in my solution explorer (VS2008)](/images/folder-structure.gif "folder-structure")
 
 When trying to build a game for the first time, there will be areas of the game that you really didn't think about. Things like managing cameras, game optimization scripts, or shaders will pop up. You have to make a decision if it is complicated enough to need its own area or folder. One of the important parts to learning about architecture is learning by doing. Sure, you will mess up and have to re-factor or move things, but that is part of learning how to manage things.
 
@@ -49,15 +55,22 @@ I am too lazy to change it at this point, but it probably would have been better
 
 ## Miscellaneous things learned
 
-- Using the GameObject.Find() or other variations take a lot of CPU cycles if it is in the Update() function. If at all possible, declare the variable at the top of the class and assign it only once in the Start() or Awake() functions. If you can make it public and assign a model via the inspector, it is better as well.
-- If your accessing internal components on the same game object, use GetComponent<>() . External objects that have no relationship with the existing script and components is best to use GameObject.Find().  Again, try to set the variables only once if possible in the Start() of Awake() functions.
-- Spend a lot of time planning and doing pseudo-code before trying to build and implement things. Diving in and starting to program will usually lead to confusion and frustration if you are trying to do anything complex.
-- While you are coding and building the game, always be thinking about the class's role and what it should be doing. If it starts to be too big and broad, think about separating it out to a different class to make it more readable.
-- You can use more than the Unity forum to learn how to do game programming. Many programming concepts and principles are discussed in more depth with other sources. Any website with object oriented design, design patterns, and game architecture can be useful.
-- Test often when you are building. Do some code and test it. It is easier to pinpoint problems when you test in short intervals.
-- Visual Studio C# 2008 Express Edition saved my life when it came to fixing problems in and outside classes. The intellisense feature really helps when you are trying to learn the API and calling outside variables or methods.
-- One thing I should have done from an optimization standpoint is use a lightmap for my main light. The only time there should be lights in the scene is if they are dynamic or somehow procedurally generated or manipulated. This game is pretty small, so it isn't that big of a deal.
+Using the GameObject.Find() or other variations take a lot of CPU cycles if it is in the Update() function. If at all possible, declare the variable at the top of the class and assign it only once in the Start() or Awake() functions. If you can make it public and assign a model via the inspector, it is better as well.
 
-## Next....
+If your accessing internal components on the same game object, use GetComponent<>() . External objects that have no relationship with the existing script and components is best to use GameObject.Find().  Again, try to set the variables only once if possible in the Start() of Awake() functions.
+
+Spend a lot of time planning and doing pseudo-code before trying to build and implement things. Diving in and starting to program will usually lead to confusion and frustration if you are trying to do anything complex.
+
+While you are coding and building the game, always be thinking about the class's role and what it should be doing. If it starts to be too big and broad, think about separating it out to a different class to make it more readable.
+
+You can use more than the Unity forum to learn how to do game programming. Many programming concepts and principles are discussed in more depth with other sources. Any website with object oriented design, design patterns, and game architecture can be useful.
+
+Test often when you are building. Do some code and test it. It is easier to pinpoint problems when you test in short intervals.
+
+Visual Studio C# 2008 Express Edition saved my life when it came to fixing problems in and outside classes. The intellisense feature really helps when you are trying to learn the API and calling outside variables or methods.
+
+One thing I should have done from an optimization standpoint is use a lightmap for my main light. The only time there should be lights in the scene is if they are dynamic or somehow procedurally generated or manipulated. This game is pretty small, so it isn't that big of a deal.
+
+## Next
 
 I am not sure what I am going to do next. I started looking into SmartFoxServer Pro and doing things with networking, but I don't think I am knowledgeable enough in the basics to start doing that yet. Doing some programmatic camera movement right now is sparking my interest, so maybe I will go that route. Unity just released a [third person shooter demo](http://unity3d.com/gallery/live-demos/index.html#3rd-person-shooter), and looking at the code squashed any intelligence I thought I had with programming.  Whatever I do, I will be sure to share my learning along with models and code I create.

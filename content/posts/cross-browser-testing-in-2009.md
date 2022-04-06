@@ -1,6 +1,7 @@
 ---
 title: "Cross-browser testing in 2009"
 date: "2009-03-27"
+featured_image: "/images/greenery.jpg"
 categories: 
   - "web-design"
 tags: 
@@ -10,7 +11,9 @@ tags:
   - "web-design"
 ---
 
-[![greenery](/images/greenery.jpg "greenery")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/greenery.jpg)When I first started out doing web design, I  didn't really think about all of the different people that are going to visit my sites. I thought that if I can see it in Firefox3, it is good enough. After all, I did some crazy CSS to get it to working right. It is their fault for not using a standards-compliant browser. Besides, I didn't learn this in school too much, so it must not be that important.
+[![greenery](/images/greenery.jpg "greenery")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/greenery.jpg)
+
+When I first started out doing web design, I  didn't really think about all of the different people that are going to visit my sites. I thought that if I can see it in Firefox3, it is good enough. After all, I did some crazy CSS to get it to working right. It is their fault for not using a standards-compliant browser. Besides, I didn't learn this in school too much, so it must not be that important.
 
 _Wrong!_
 
@@ -68,17 +71,17 @@ The easiest way to implement them is adding a separate css file like  "ie6.css
 
 Voila! done.
 
-### CSS Reset File
+## CSS Reset File
 
 Many problems with coding and testing go away with the CSS reset files. It "resets" most of the styles to compensate for any differences. It has a [whole site](http://www.css-reset.com/) devoted to it. Plop one in your code and test away.
 
-### Design it right first
+## Design it right first
 
 Always design it in a standards compliant browser _first_ like Opera or Firefox 3. It is much better and easier to break rules and mess things up in conditional files than try to fix things in your main document. When older browsers disappear, you won't have to worry about recoding it because it will be right to begin with.
 
-### Tools
+## Tools
 
-[![meerkat](/images/meerkat.jpg "meerkat")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/meerkat.jpg)After all of the standards compliant browsers are finally to take shape, software is slowing coming to the aid. It is probably about 10 years too late, but it will still be valuable none-the-less.
+After all of the standards compliant browsers are finally to take shape, software is slowing coming to the aid. It is probably about 10 years too late, but it will still be valuable none-the-less.
 
 This software basically wraps all the browsers into one app that can be previewed all at one time. Making testing easier is the idea.
 

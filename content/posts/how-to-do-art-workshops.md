@@ -7,8 +7,6 @@ categories:
   - "illustration"
 ---
 
-**Chester Ocampo's version (Not mine!-  zoom in on the image with controls on bottom)**
-
 I subscribe to the "ImagineFX" magazine which helps build concept and illustration skills. Having a design background, I am not very skilled in the "finer" arts like painting. I have got a few magazine issues and have read through most of them. One part of the magazine that has baffled me is the "art workshops" section.
 
 How are you suppose to do them? Just read them. Follow along? There is a lot missing in the steps!
@@ -29,7 +27,7 @@ Not true.
 
 Working through a workshop gives far more understanding and advancement than just reading. It is much more frustrating, but more rewarding. With the last one I completed, I redid every step about 3-5 times before I get it decently right. It still isn't nearly as good as the original, but I learned enough from it. Here is my "final" version below.
 
-**My version version**
+## My version
 
 It pales in comparison to the master version above, but I learned a lot with the process. I changed her outfit a little bit to make it more interesting (it is boring when you are trying to copy something exactly). I started out with the rough sketch that he provided on the DVD, but then did everything myself in Photoshop after that.
 

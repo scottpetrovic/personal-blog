@@ -13,7 +13,7 @@ On the 3rd person character controller script with the 3D platform tutorial that
 
 My example  still has about 30 lines of code for the basics (over 40 with commenting).
 
-**Controls: W,A,S,D move OR arrow keys**
+- Controls: W,A,S,D move OR arrow keys
 
 \[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2009/12/basicMovement.unity3d" width="600" height="350"/\]
 
@@ -23,12 +23,12 @@ If you want to start from scratch, you can start a new project and add an object
 
 Nothing happens if you play the game now, since there is only one script and it is empty. Everything from this point on will be dealing with the script attached to the game object you want to move.
 
-private var controller :CharacterController;
-controller = gameObject.GetComponent(CharacterController);
+    private var controller :CharacterController;
+    controller = gameObject.GetComponent(CharacterController);
 
-private var moveDirection = Vector3.zero;
-private var forward = Vector3.zero;
-private var right = Vector3.zero;
+    private var moveDirection = Vector3.zero;
+    private var forward = Vector3.zero;
+    private var right = Vector3.zero;
 
 These first lines are declared at the top of the script. They aren't in any functions or classes. This is so that any function inside of the script can access the variables. Making them private means they can't be accessed by the inspector.
 
@@ -40,22 +40,22 @@ The last three lines are setting up the movement direction and forward direction
 
 Since movement is constantly changing, all movement and directions need to be calculated every frame. This is perfect for Unity's predefined Update function. There are many different parts to movement so there needs to be a few different variables defining and monitoring each aspect.
 
-function Update()
-{
-	forward = transform.forward;
-	right = Vector3(forward.z, 0, -forward.x);
+    function Update()
+    {
+        forward = transform.forward;
+        right = Vector3(forward.z, 0, -forward.x);
 
-	var horizontalInput = Input.GetAxisRaw("Horizontal");
-	var verticalInput = Input.GetAxisRaw("Vertical");
+        var horizontalInput = Input.GetAxisRaw("Horizontal");
+    var verticalInput = Input.GetAxisRaw("Vertical");
 
 The first two lines are assigning the direction that the character is facing forward and right. I will explain why we need these in a little bit. The second two statements create variables that will store input values. These values will constantly change based off if you are pressing the up/down keys (vertical) or right/left keys (horizontal). The "GetAxisRaw" method is used instead of the "GetAxis" because the latter applies smoothing which will make our rotations less responsive. Add the next few lines after the previous two. Keep everything inside the Update function.
 
-	var targetDirection = horizontalInput \* right + verticalInput \* forward;	
+    var targetDirection = horizontalInput \* right + verticalInput \* forward;	
 
-	moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, 200 \* Mathf.Deg2Rad \* Time.deltaTime, 1000);
+    moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, 200 \* Mathf.Deg2Rad \* Time.deltaTime, 1000);
 
-	var movement = moveDirection  \* Time.deltaTime \* 2;
-	controller.Move(movement);
+    var movement = moveDirection  \* Time.deltaTime \* 2;
+    controller.Move(movement);
 
 the first part creates a targetDirection variable that makes a direction that is currently being pressed. Your horizontalInput and verticalInput variables will return values between -1 and 1. They are the magnitudes of the direction. The right and forward variables return directions as vectors.
 
@@ -75,7 +75,7 @@ If you try to play the game now, you will see the character moving around. Fanta
 
 He seems a little stubborn and doesn't want to turn at all though. We will fix that next.
 
-transform.rotation = Quaternion.LookRotation(moveDirection);
+    transform.rotation = Quaternion.LookRotation(moveDirection);
 
 this takes the transform (the main orientation of game object), and rotates it by moveDirection. We already set up moveDirection earlier for the angle we want it to be at.
 
@@ -83,10 +83,10 @@ Success...but wait. If you take your hand away from the controls for a second, h
 
 So close. One more thing to fix that. Wrap this if statement around the last line you put in. It should look like this.
 
-	if (targetDirection != Vector3.zero)
-	{
-	transform.rotation = Quaternion.LookRotation(moveDirection);
-	}
+    if (targetDirection != Vector3.zero)
+    {
+        transform.rotation = Quaternion.LookRotation(moveDirection);
+    }
 
 What this does is that the game object will only try to rotate if the targetDirection is NOT zero. When you take you hand away from the keyboard for a split second, the input values will show (0,0,0), so it thinks that is the target direction.
 
@@ -94,7 +94,7 @@ It isn't,but it doesn't know that. The only time that value will show is when yo
 
 One last thing. Add this after the entire Update function at the bottom:
 
-@script RequireComponent(CharacterController)
+    @script RequireComponent(CharacterController)
 
 This will make sure a Character Controller component is attached to the game object that the script is attached to. If you forget to add one and you press play, this line will automatically add a component to the game object and save you from a nasty error.
 
@@ -102,6 +102,6 @@ Hit play and watch your character move and rotate around.
 
 ## Final Thoughts
 
-If for some reason you scrolled down to get the source without reading anything, here is the [project set up files](http://blog.scottpetrovic.com/wp-content/uploads/2009/12/3rdPersonBasicMovement.rar) and source.
+If for some reason you scrolled down to get the source without reading anything, here is the [project set up files](/unity3d/3rdPersonBasicMovement.rar) and source.
 
 This is a good first step in understanding how basic character movement is put together. A fully done character is complicated, but understanding these concepts are fundamental to building more advanced setups. This set up might seem weird with how the character moves, but when a camera is added along with a few other elements later, it will all make sense. I will try to continue where this example leaves off and explain more with collisions and actions like jumping in the next post.
