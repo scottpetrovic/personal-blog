@@ -1,8 +1,13 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
-<em>Length: {{ .ReadingTime }} min</em>
+<div class="post">
+    <h1>{{ .Title }}</h1>
+    {{ .Date | time.Format ":date_long" }}
+    <em style="margin-left: 2rem">Length: {{ .ReadingTime }} min</em>
 
-{{ .Content }}
+    {{ .Content }}
+</div>
+
+
 
 {{ partial "footer.html" . }}

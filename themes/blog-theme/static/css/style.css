@@ -1,59 +1,144 @@
 /* LAYOUT */
 
-body {
-  color: #333;
-  font-size: 125%;
-  line-height: 1.5;
-  max-width: 45rem;
-  padding: 1rem;
-  margin: 0 auto;
+* {
+  font-family: sans-serif;
+  color: #403f58;
 }
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 240%;
+}
+
+h2, h3 {
+  margin: 1rem 0;
+  margin-top: 3rem;
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+p {
+  line-height: 141%;
+  font-size: 125%;
+}
+
+ol, ul, li {
+  font-size: 109%;
+  line-height: 140%;
+}
+
+a {
+  color: #44a9c2;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  background: #4a5765;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+code {
+    color: #d1e0e2;
+    line-height: 148%;
+}
+
+
+
+.main-menu {
+  display: inline-block;
+  margin: 0;
+}
+.main-menu li {
+  list-style: none;
+}
+
+nav.site-nav {
+  background: #96bfd4;
+  padding: 1rem;
+}
+nav.site-nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
 
 .content {
   margin-bottom: 2rem;
+  max-width: 1100px;
+  margin: auto;
 }
 
-/* NAVIGATION */
-
-.site-nav {
-  display: flex;
+footer {
+  margin-top: 5rem;
+  text-align: center;
 }
 
-.site-nav a {
-  display: block;
-  padding: 1rem;
+footer p {
+  color: #a8a5a5;
 }
 
-.site-nav .logo {
-  font-weight: bold;
-  padding-left: 0;
-}
-
-.main-menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-@media screen and (max-width: 48rem) {
-  .site-nav,
-  .main-menu {
-    flex-direction: column;
-  }
-
-  .site-nav a {
-    padding: 0.5rem;
-    padding-left: 0;
-  }
-}
 
 /* LISTS */
 
+.post {
+  margin: 0 19%;
+}
+
+.posts-listing {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 4%;
+  margin: 5%;
+}
+.posts-listing a {
+  color: black;
+  font-weight: normal;
+}
+.posts-listing a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .posts-listing {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 1%;
+  }
+
+}
+
+
 .post-snippet {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #e9e9e9;
   margin-bottom: 1rem;
 }
 
 .post-snippet h3 {
   margin-bottom: 0.25rem;
+}
+
+.post-snippet a {
+  font-size: 1.25rem;
 }
