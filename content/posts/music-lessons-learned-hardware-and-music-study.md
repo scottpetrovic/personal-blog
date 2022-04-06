@@ -1,12 +1,13 @@
 ---
 title: "Music Lessons Learned: Hardware and Music Study"
 date: "2012-09-01"
+featured_image: "/images/shadow-of-the-colossus-pic2.jpg"
 categories: 
   - "life"
   - "music-recording"
 ---
 
-[![](/images/learning-lessons.jpg "learning-lessons")](http://blog.scottpetrovic.com/wp-content/uploads/2012/09/learning-lessons.jpg)I have been spending a lot of time learning music technology and composition recently and want to to share what I have learned. I do mostly MIDI composition and orchestration, so my experience relates to those areas.
+I have been spending a lot of time learning music technology and composition recently and want to to share what I have learned. I do mostly MIDI composition and orchestration, so my experience relates to those areas.
 
 The first half of the post discusses some of the hardware requirements that I thought about when upgrading my laptop to handle audio recording demands. The second half talks about music writing and the recording process as I was trying to recreate a song  from the game Shadow of the Colossus.
 
@@ -34,11 +35,11 @@ I have always heard from a lot of people how great this game was, so I picked it
 
 I thought the music was exceptionally good though, and wanted to learn a lot about what makes it sound the way it does. A great soundtrack to a game or movie really makes it more memorable in my opinion.  Here are some things that I learned about music in general.
 
-### **Voicing**
+## Voicing
 
 Lead instruments, especially strings, sound very empty if you are only playing a melody with single notes. Playing octaves really fills the sound out and makes it much stronger. I heard this repeatedly with many of the different themes in "An Opened Way". Melodies never seem to be by themselves with one instrument. Even having other instrument play in unison seem to make the sound much fuller.
 
-### **Mixing**
+## Mixing
 
 Mixing is the art of balancing all of the instruments after they have been recorded. After watching a bunch of videos on mixing as well as going to my local Guitar Center for their free recording lessons, this is an area I thought I have learned the most in recently.
 
@@ -46,7 +47,7 @@ When mixing all of the instruments together, it is important to leave some "head
 
 I originally heard some advice to take a finished song that you like and use it as a reference when mixing, but I am finding you have to be very careful with that approach. Since the songs that you hear from iTunes or the radio are mastered, the output is going to be much louder and the dynamic range much smaller than what you should be striving for.
 
-### **Reverb**
+### Reverb
 
 There are a few filters that a lot of MIDI instrumentation uses to help it seem more "natural".  One of the biggest filters I see everyone using is the "reverb" effect. This simulates a sound reflection from a room and it makes the sound appear less mechanical.  There are a few properties that you can alter, but one of the important ones that I haven't understood before was the "pre-delay". Pre-delay offsets the reverb so it doesn't start until later in the note. This allows the notes to have the attack and vibrancy when the notes are first struck.
 
@@ -54,19 +55,20 @@ Adding more reverb also makes the music appear farther away, so it can help make
 
 Reverb is so common that it seems to be one of the overused and abused filters of the music recording industry. Being judicious with its use is important.
 
-### **Mastering**
+### Mastering
 
 Mastering is the last part of the music creation process. It takes your song and makes it ready for the masses. Since most speakers can't output a very high quality sound, the mastering process takes the sound and compresses the waveform so it can sound better on a broader range of speakers. I am starting to use a "Maxim" filter in Pro Tools for this when I started finishing the recording. It seems to do a good job at exposing the lower frequencies in the music and make the overall sound more full. I don't like going to 0dB for the ceiling, so I bring it down a little.
 
 This phase definitely seemed to normalize the frequencies more so you hear the lower frequencies just as much as the high ones. This seems to sound better for most speakers and ear buds that can't represent the lower frequencies very well.
 
-###  **Steel Plates and Other Percussion**
+###  Steel Plates and Other Percussion
 
 There are so many percussion instruments out there that can add a lot to a song. For "An Opened Way", The closest natural instrument I can find for the odd crashing sound was the steel plates. When you first start using a new instrument into a score and see how it can be used, it is pretty eye-opening how it adds to the texture of the sound. There was some pretty heavy reverb on the instrument which makes it sound less harsh. Using these non-typical percussive sounds seems to be more of an experiment than a science. Here is the final mix of the study
 
 ### "An Opened Way" Study from Shadow of the Colossus
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2012/09/An Opened Way.mp3"\]
+
+{{<audio-player src="/audio/An Opened Way.mp3" >}}
 
 ## Final Thoughts
 

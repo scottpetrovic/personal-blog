@@ -1,6 +1,7 @@
 ---
 title: "ThinkPad and SketchBook Pro"
 date: "2012-11-10"
+featured_image: "/images/620-thinkpad-tablet1.jpg"
 categories: 
   - "art"
   - "illustration"
@@ -20,11 +21,11 @@ Sure the latest version of iPad has a higher resolution, faster processor, and m
 
 To make it the perfect artist's companion, I thought the best designed artist tablet has to be comparable to a great sketchbook. It needs to be portable, compact, easy to use, responsive, and fit in my budget.
 
-#### The Stylus
+### The Stylus
 
 The stylus on the ThinkPad is the biggest selling point with this tablet. Not only does it fit inside of the tablet so you don't have to carry it separately, but it actually comes to a point. Most pen nibs ( including Wacom's tablet pen) has a large rubber tip that feels clumsy. It is really difficult to be very precise and add any detail. In addition to the small pen nib, it also allows for pressure sensitivity.  In all of my searching through the web, I couldn't find anything else on the market that could compete with this.
 
-#### Low Cost
+### Low Cost
 
 Prices are staggering when you look at the range you can spend on a tablet. They range from a couple hundred dollars all of the way into the thousands. Features really start coming into question at this point. What do you really need? The two options that seemed to have the best options were a Window 7 tablet that works with regular Wacom pens. The other option was a ThinkPad, which has a proprietary pen with almost the same functionality ( no eraser on the back like a Wacom).
 

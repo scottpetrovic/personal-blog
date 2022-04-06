@@ -13,7 +13,9 @@ As of now, I am thinking of calling the game "Witch Training". I still have a fa
 
 ## Character sketching
 
-[![](/images/witch-training-character-sketches.jpg "witch-training-character-sketches")](http://blog.scottpetrovic.com/wp-content/uploads/2010/08/witch-training-character-sketches.jpg)It probably isn't a good idea to start out with designing the main witch character right away, but whatever. I really wanted to try to expand my visual vocabulary more with different types of outfits. My characters seem to have very similar outfits, which is really lame. I went to the library and picked up a book called [What People Wore When](http://www.amazon.com/What-People-Wore-When-Illustrated/dp/0312383215), which is a visual dictionary of all kinds of costumes and clothing people wore throughout time. It really helped me get creative ideas in the process. The image to the left are a few different sketches I wanted to try a few different approaches.  I made them go in different directions since there was no type of design brief.
+[![](/images/witch-training-character-sketches.jpg "witch-training-character-sketches")](http://blog.scottpetrovic.com/wp-content/uploads/2010/08/witch-training-character-sketches.jpg)
+
+It probably isn't a good idea to start out with designing the main witch character right away, but whatever. I really wanted to try to expand my visual vocabulary more with different types of outfits. My characters seem to have very similar outfits, which is really lame. I went to the library and picked up a book called [What People Wore When](http://www.amazon.com/What-People-Wore-When-Illustrated/dp/0312383215), which is a visual dictionary of all kinds of costumes and clothing people wore throughout time. It really helped me get creative ideas in the process. The image to the left are a few different sketches I wanted to try a few different approaches.  I made them go in different directions since there was no type of design brief.
 
 I decided going with the last one, just because it was the most different and unique design out of all of them. It is a bit odd, but I thought it's quirkiness would give it a little more personality. I made the thumbnail bigger and started thinking about some of the details that would go into it.
 
@@ -21,7 +23,9 @@ The other designs  were good and had potential, but I felt they were too stereo
 
 ## Final Render
 
-[![Witch Training illustration](/images/witch-training-char1.jpg "Witch Training illustration")](http://blog.scottpetrovic.com/wp-content/uploads/2010/08/witch-training-char1.jpg)Here is the final rendering on the left. I reworked some of the details from the sketch. Some things weren't flowing well like the shoes and the outfit, so I played around with them until I thought they worked.  While drawing and painting, I was trying to create a little practicality in everything. Here is my summary:
+[![Witch Training illustration](/images/witch-training-char1.jpg "Witch Training illustration")](http://blog.scottpetrovic.com/wp-content/uploads/2010/08/witch-training-char1.jpg)
+
+Here is the final rendering on the left. I reworked some of the details from the sketch. Some things weren't flowing well like the shoes and the outfit, so I played around with them until I thought they worked.  While drawing and painting, I was trying to create a little practicality in everything. Here is my summary:
 
 Witches are pretty nomadic, so they need to carry their life's belonging with them. Carrying a little bag, isn't enough. They need blankets, food, water, sentimental items, toiletries, things to do when they are bored. Things like fishing rods and weapons that are pointy can stick out. If they need to attack something melee-style, they can grab it right away instead of rummaging through their bag.
 

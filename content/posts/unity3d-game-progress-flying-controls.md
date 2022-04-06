@@ -17,17 +17,24 @@ The time looks a little nicer on the bottom of the screen. I have a little GUI m
 
 There were some miscellaneous fixes that I made such as making sure the character remembers which way is forward after returning to the ground. I updated the bomb model along with a simple texture. It now explodes when it hits something.
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/10/witch-training-11-2010.unity3d" width="600" height="350"/\]
 
-**Controls**
 
-**walk/move when flying** - arrow keys **jump** \- spacebar **flight mode** - hit space bar again when in air **rotate(while flying**) - Mouse **throw bomb** - Mouse button (you can hold it down to give it more power. use while on the ground or flying!) **run/fly faster modifer** - left shift
+[Witch Training File](/unity3d/witch-training-11-2010.unity3d)
+
+### Controls
+
+- **walk/move when flying** - arrow keys 
+- **jump** \- spacebar 
+- **flight mode** - hit space bar again when in air 
+- **rotate(while flying**) - Mouse 
+- **throw bomb** - Mouse button (you can hold it down to give it more power. use while on the ground or flying!) 
+- **run/fly faster modifer** - left shift
 
 ## Mouse Controls
 
 I thought I better thow some of the code on here to make the post look more valuable. I spend a lot of time working on the coding at this point - trying to understand rotations and vectors, and other 3d concepts at a much deeper level. Here is a slice of code for creating the rotation for the flying controls.
 
- //for mouse movement
+        //for mouse movement
         float yawMouse = Input.GetAxis("Mouse X");
         float pitchMouse = Input.GetAxis("Mouse Y");
         Vector3 targetFlyRotation = Vector3.zero;
@@ -61,7 +68,7 @@ I thought I better thow some of the code on here to make the post look more valu
 
 I am probably doing this backward by giving all of the code first, but I think it is good to see it in its entirety. First off, this code is in the thirdpersonflyingController.cs script if you are getting the project via SVN.
 
- //for mouse movement
+        //for mouse movement
         float yawMouse = Input.GetAxis("Mouse X");
         float pitchMouse = Input.GetAxis("Mouse Y");
         Vector3 targetFlyRotation = Vector3.zero;
@@ -72,8 +79,9 @@ The first two variables collect mouse data. The way the Input.GetAxis() function
 
 The targetFlyRotation will be used to see what the rotation value will be. The Screen.lockCursor "locks" the cursor so you can't see it or control anything outside of the web player. This is great since there will be a lot of mouse movement and I don't want people accidently clicking outside of the window and deactivating it.
 
-   if (Mathf.Abs(yawMouse) > 0.1f || Mathf.Abs(pitchMouse) > 0.1f)
+     if (Mathf.Abs(yawMouse) > 0.1f || Mathf.Abs(pitchMouse) > 0.1f)
         {
+        }
 
 Te rest of this code is inside the statement above. It makes sure that there is movement in the mouse before it will try to update. You don't need to update the rotation if you aren't moving the mouse. The Mathf.Abs() is used to make sure that movement is counted in both directions ( the mouse values will spit out -1 to 1). As long as it is moving it doesn't matter what direction.
 
@@ -89,12 +97,12 @@ The normalize() and Time.deltaTime are there to create a unit vector out of the 
 
 That is most of the logic for the rotation, but there is one important part of the rotation that needs to be done for it to work better. Constraints! If you give full control of the rotation, it will spaz out when it reaches straight up or down since the model won't know which way if forward.
 
- //Log out the limitX value for this to make sense
-            float limitX = Quaternion.LookRotation(moveDirection + targetFlyRotation).eulerAngles.x;
+    //Log out the limitX value for this to make sense
+    float limitX = Quaternion.LookRotation(moveDirection + targetFlyRotation).eulerAngles.x;
 
 This is determining what the future rotation amount will be before it gets applied to the real rotation. This will get used for testing. The moveDirection is the actual rotation and adding the targetFlyRotation will give the new amount. The eulerAngles.x will output just the x or "pitch" part of it. That is the main axis that we need to worry about.
 
-  if (limitX < 90 && limitX > 70 || limitX > 270 && limitX < 290)
+    if (limitX < 90 && limitX > 70 || limitX > 270 && limitX < 290)
             {
                 Debug.Log("restrict motion");
             }

@@ -9,7 +9,9 @@ categories:
   - "reviews"
 ---
 
-[![Art Nouveau Painting](/images/art-nouveau-painting.jpg "art-nouveau-painting")](http://blog.scottpetrovic.com/wp-content/uploads/2010/06/art-nouveau-painting.jpg)I finally put enough time into my painting that I feel ok to press the stop button on it. I am sure a couple of month will roll by and I will find mistakes — but there is no better way to document your progress as an artist! That is how I rationalize it anyway.
+[![Art Nouveau Painting](/images/art-nouveau-painting.jpg "art-nouveau-painting")](http://blog.scottpetrovic.com/wp-content/uploads/2010/06/art-nouveau-painting.jpg)
+
+I finally put enough time into my painting that I feel ok to press the stop button on it. I am sure a couple of month will roll by and I will find mistakes — but there is no better way to document your progress as an artist! That is how I rationalize it anyway.
 
 I studied a lot of Mucha's paintings and put some nice elements in it that made it look more "painterly". One of them was putting a glaze over it that has a stippling of colors. Having perfectly flat colors in a painting screams that it was done digitally, so I minimized that by creating a layer, adding a noise filter, and setting it to a color burn blending mode. Some people solve that problem by adding textures as well.  Another good practice in painting is to try and avoid the colors white and black. They either look like you forgot to paint a spot (white), or there is a lifeless hole in the detail (using 100% black). Colors give things life, so I tried to make sure the overall feel was very vibrant.
 

@@ -1,6 +1,7 @@
 ---
 title: "Orchestral Study with East West Symphony"
 date: "2012-03-04"
+featured_image: "/images/saber-mainWindow.jpg"
 categories: 
   - "life"
 ---
@@ -43,4 +44,4 @@ I liked the balance of the instruments when I heard it, but just wanted to make 
 
 ## Finished version
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2012/03/sabers-edge-study.mp3"\]
+{{<audio-player src="/audio/sabers-edge-study.mp3" >}}

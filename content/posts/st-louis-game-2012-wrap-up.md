@@ -1,13 +1,16 @@
 ---
 title: "St. Louis Game Jam 2012 Wrap-Up"
 date: "2012-01-30"
+featured_image: "/images/game-jam2012-logo.jpg"
 categories: 
   - "computer"
   - "life"
   - "music-recording"
 ---
 
-[![](/images/game-jam2012-logo.jpg "game-jam2012-logo")](http://blog.scottpetrovic.com/wp-content/uploads/2012/01/game-jam2012-logo.jpg)I just came back from the St. Louis game jam and had such a blast. It was held this year at the University of Missouri - St. Louis campus by the airport. It started on Friday and ended on Sunday night. There was a great turnout with 70+ people. St. Louis was in the top 10% of participants worldwide this year, which made it even more fun to meet even more people and see more games!
+[![](/images/game-jam2012-logo.jpg "game-jam2012-logo")](http://blog.scottpetrovic.com/wp-content/uploads/2012/01/game-jam2012-logo.jpg)
+
+I just came back from the St. Louis game jam and had such a blast. It was held this year at the University of Missouri - St. Louis campus by the airport. It started on Friday and ended on Sunday night. There was a great turnout with 70+ people. St. Louis was in the top 10% of participants worldwide this year, which made it even more fun to meet even more people and see more games!
 
 Doing audio was probably one of the most enjoyable game jams I have been to in terms of the work. I put in a lot of hours in, but since I used my ears as much as I used my eyes, I didn't have that blurry, disoriented feel when I was strolling out at the end of the night.
 
@@ -19,16 +22,19 @@ If you haven't heard of the [Global Gam Jam](http://globalgamejam.org/), it is a
 
 Audio and music is generally need of help, so I helped out with three games this year. Hear are a few songs that I composed this weekend.
 
-_Note: If the music doesn't have any sound when you are playing, try to adjust the volume on the player. It worked for me using Firefox._
+## Copperhead Jack and the Cave of Snakes
 
-## Title/Theme -  [Copperhead Jack and the Cave of Snakes](http://globalgamejam.org/2012/copperhead-jack-and-cave-snakes)
+Game - http://globalgamejam.org/2012/copperhead-jack-and-cave-snakes
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2012/01/title-screen.mp3"\]
+{{<audio-player src="/audio/title-screen.mp3" >}}
 
-## Level Music - [Towel Fight of the Gods](http://globalgamejam.org/2012/towel-fight-gods)
+## Towel Fight of the Gods
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2012/01/god-game-level.mp3"\]
+Game - http://globalgamejam.org/2012/towel-fight-gods
 
-## Background Music - [Ra: Eternal Fire](http://globalgamejam.org/2012/ra-eternal-fire)
+{{<audio-player src="/audio/god-game-level.mp3" >}}
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2012/01/phoenix.mp3"\]
+## Ra: Eternal Fire
+Game - http://globalgamejam.org/2012/ra-eternal-fire
+
+{{<audio-player src="/audio//phoenix.mp3" >}}

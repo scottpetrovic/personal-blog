@@ -1,15 +1,18 @@
 ---
 title: "Foundation Framework and Updated Portfolio Site"
 date: "2012-07-29"
+featured_image: "/images/foundation-framework1.jpg"
 categories: 
   - "web-design"
 ---
 
-[](http://blog.scottpetrovic.com/wp-content/uploads/2012/07/foundation-framework.jpg)I heard about a new responsive web framework called "Foundation" a few weeks ago. I recently have been reading responsive/adaptive web design and thought I might give the framework a go. Portfolio sites are always a great place to experiment with new technologies... so here we go.
-
 ![](/images/foundation-framework1.jpg "foundation-framework")
 
-## [Foundation 3.0 website](http://foundation.zurb.com/)
+I heard about a new responsive web framework called "Foundation" a few weeks ago. I recently have been reading responsive/adaptive web design and thought I might give the framework a go. Portfolio sites are always a great place to experiment with new technologies... so here we go.
+
+## Foundation 3.0 website
+
+http://foundation.zurb.com/
 
 One important thing to know is that it really sets up quite a bit for you. I thought it was mostly just going to be about the grid system and media queries, but it is much more helpful than that. The framework includes an amalgam of different plugins and libraries. It uses jQueryand also has responsive components like modal windows (Reveal) and slideshow viewers (Orbit). It is lightweight enough that it is easy to customize and extend. It isn't supported in IE6, so as long as you are ok with that, it claims to have good support across the board.
 

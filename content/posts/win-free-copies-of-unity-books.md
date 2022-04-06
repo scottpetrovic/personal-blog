@@ -9,7 +9,10 @@ _**This contest is over. Thanks to everyone who entered. I will be randomly sele
 
 Readers will be pleased to know that we have teamed up with Packt Publishing and are organizing a **Giveaway** for you. Six lucky winners stand a chance to win a copy of the best-selling books on Unity. Keep reading to find out how you can be one of the Lucky Winners.
 
-### [![](/images/unity-3-essentials-cover.jpg "unity-3-essentials-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-3-essentials-cover.jpg)Unity 3.x Game Development Essentials:
+
+## Unity 3.x Game Development Essentials
+
+ [![](/images/unity-3-essentials-cover.jpg "unity-3-essentials-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-3-essentials-cover.jpg)
 
 - Kick start your game development, and build ready-to-play 3D games with ease.
 - Understand key concepts in game design including scripting, physics, instantiation, particle effects, and more.
@@ -17,7 +20,9 @@ Readers will be pleased to know that we have teamed up with Packt Publishing and
 
  
 
-### [![](/images/unity-iOS-cover.jpg "unity-iOS-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-iOS-cover.jpg)Unity iOS Essentials:
+## Unity iOS Essentials:
+
+[![](/images/unity-iOS-cover.jpg "unity-iOS-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-iOS-cover.jpg)
 
 - Learn key strategies and follow practical guidelines for creating Unity 3D games for iOS devices.
 - Learn how to plan your game levels to optimize performance on iOS devices using advanced game concepts.
@@ -40,6 +45,6 @@ All you need to do is head on over to their respective book pages ( Unity 3.x Ga
 
 Winners from the U.S. and Europe can either choose a physical copy of the book or the eBook. Users from other locales are limited to the eBook only.
 
-## **Deadline**
+## Deadline
 
-_**The contest will close on 02/15/2012 (Pacific Time). Winners will be contacted by email, so be sure to use your real email address when you comment!**_
+The contest will close on 02/15/2012 (Pacific Time). Winners will be contacted by email, so be sure to use your real email address when you comment!

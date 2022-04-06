@@ -53,7 +53,7 @@ I got the [Lexicon Alpha](http://www.sweetwater.com/store/detail/Alpha/). It is 
 
 With an audio interface, there are a few ways to hook up your instrument. The simplest way is to use a 1/4" cable and go from the mono out of your keyboard to the audio interface mono in. I have two 1/4" cables and use the stereo out to plug it in. My keyboard sounds seem like they were made for stereo out, because it sounds better. Either work though. I bought a nice set of monitor headphones (I bought mine for $40 from Tony off Craigslist). [Monitor headphones](http://www.google.com/search?q=monitor+headphones&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a#q=monitor+headphones&hl=en&client=firefox-a&hs=qH1&rls=org.mozilla:en-US:official&prmd=imvns&source=univ&tbm=shop&tbo=u&sa=X&ei=rdl_TuyJJ-eMsALeovxM&ved=0CHIQrQQ&bav=on.2,or.r_gc.r_pw.&fp=53109c92d744947c&biw=1200&bih=601) are just nice headphones that reproduce the sound more accurately than ear buds or cheap headphones.
 
-\[caption id="attachment\_1605" align="alignleft" width="216" caption="1/8" to 1/4" converter"\]![1/8" to 1/4" converter](/images/plug-converter.jpg "plug-converter")\[/caption\]
+![1/8" to 1/4" converter](/images/plug-converter.jpg "plug-converter")
 
 The audio interface is really a sound card, so when you plug it in, it will override everything and take control of all of the sound. You will have to put your headphone jack into the audio interface to hear anything.
 

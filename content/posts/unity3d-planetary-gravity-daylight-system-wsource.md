@@ -11,9 +11,9 @@ Having characters or other movable objects walk and jump around a plane or flat 
 
 To put a preface on this article, this solution is not "true" planetary gravity. Most of this code was pulled from the [locomotion system demo](http://unity3d.com/support/resources/unity-extensions/locomotion-ik "Unity3d Locomotion system") from the Unity website, so I can't take credit for figuring out these concepts. I will just be including the parts with how the gravity works along with an explanation. Take a look at the project
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/06/world-gravity.unity3d" width="600" height="350"/\]
+[World Gravity Unity3D File](/unity3d/world-gravity.unity3d)
 
-[![Get Source download](/images/get_source_button.png "Get Source")](http://blog.scottpetrovic.com/wp-content/uploads/2010/06/world-gravity.zip "Unity3d World Gravity source files")
+[World Gravity Source Code](/unity3dworld-gravity.zip)
 
 ## Planar gravity vs. Non-planar gravity
 
@@ -23,24 +23,24 @@ Turning your player right will influence the "up" or y part of your character. T
 
 ## Determining Gravity Direction
 
-RaycastHit hit;
+    RaycastHit hit;
 
-		desiredUp = Vector3.zero;
+        desiredUp = Vector3.zero;
         for (int i=0; i<8; i++) {
             Vector3 rayStart =
                 transform.position
                     + transform.up
                     + Quaternion.AngleAxis(360 \* i / 8.0f, transform.up)
                         \* (transform.right \* 0.5f)
-					+ desiredVelocity\*0.2f;
+                    + desiredVelocity\*0.2f;
 
             Debug.DrawRay(rayStart, transform.up \* -5, Color.red);
            // Debug.Log(Physics.Raycast(rayStart, transform.up\*-48, out hit, 3.0f, groundLayers));
-			if ( Physics.Raycast(rayStart, transform.up\*-5, out hit, 10.0f, groundLayers.value) ) {
+            if ( Physics.Raycast(rayStart, transform.up\*-5, out hit, 10.0f, groundLayers.value) ) {
 
                 desiredUp += hit.normal;
                	}
-	}
+    }
 
 This is a snippet from the project files. If you look at the loop, it iterates 8 times. One of the main reasons that it loops is that it creates a ray each iteration. There are 8 rays that shoot down that make a circle around the character. You can see this in the editor window - Debug.DrayRay does that.  These rays will hit a surface on the collider and store its normal (or up direction). The variable desiredVelocity makes the Rays move based on the characters velocity. This helps from players getting stuck if the terrain has a drastic shift.
 
@@ -52,12 +52,12 @@ Most of this code was ganked from the locomotion system with a few tweaks to mak
 
         //posFollow.Update(Vector3 targetPositionNew, float deltaTime)
         transform.position = posFollow.Update(
-			character.transform.position + horizontal\*Mathf.Abs(positionVector.z) + vertical\*positionVector.y,
-			Time.deltaTime\*12
-		);
+            character.transform.position + horizontal\*Mathf.Abs(positionVector.z) + vertical\*positionVector.y,
+            Time.deltaTime\*12
+        );
 
-		horizontal = lastVelocityDir;
-		Vector3 look = lookFollow.Update(character.transform.position + horizontal\*lookVector.z - vertical\*lookVector.y, Time.deltaTime);
+        horizontal = lastVelocityDir;
+        Vector3 look = lookFollow.Update(character.transform.position + horizontal\*lookVector.z - vertical\*lookVector.y, Time.deltaTime);
 
         //creates a cross product to stabilize the right vector on camera
         Vector3 crossX = Vector3.Cross(transform.forward, -character.transform.up);
@@ -84,50 +84,50 @@ The reason that it is binded to the camera's right, or x, axis is because of how
 
 This is a script I made that takes advantage of a blended skybox shader that I found on the Unity3d wiki.
 
-public class DaylightTime : MonoBehaviour
-{
-    //15 degrees is equal to an hour of time. multiply by time to slow down rotation amount
-    float timeChange = 15.0f \* 0.03f;
-    public Material skyBoxMat;
-
-    private GameObject character;
-    private GameObject sunlight;
-
-    private float materialBlendValue = 0.5f;
-
-    void Start()
+    public class DaylightTime : MonoBehaviour
     {
-        character = GameObject.Find("Player");
-        sunlight = GameObject.Find("sunlight");
+        //15 degrees is equal to an hour of time. multiply by time to slow down rotation amount
+        float timeChange = 15.0f \* 0.03f;
+        public Material skyBoxMat;
 
-    }
+        private GameObject character;
+        private GameObject sunlight;
 
-    // Update is called once per frame
-    void Update()
-    {
+        private float materialBlendValue = 0.5f;
 
-        transform.Rotate(0, timeChange \* Time.deltaTime, 0);
-
-        //determine skybox texture depending on player's position
-        float materialAngleDifference = Vector3.Angle(character.transform.up, -sunlight.transform.forward);
-        //Debug.Log(materialAngleDifference);
-
-        // float materialBlendValue = materialAngleDifference / 180.0f;
-
-        if (materialAngleDifference < 65)         {             materialBlendValue = Mathf.Lerp(materialBlendValue, 1.0f, Time.deltaTime \* 0.5f);             skyBoxMat.SetFloat("\_Blend", materialBlendValue);             Debug.Log(materialAngleDifference);         }         else if (materialAngleDifference >= 110)
+        void Start()
         {
-            materialBlendValue = Mathf.Lerp(materialBlendValue, 0.0f, Time.deltaTime \* 0.5f);
-            skyBoxMat.SetFloat("\_Blend", materialBlendValue);
-        }
-        else
-        {
-            //materialBlendValue = materialAngleDifference / 180.0f;
-            materialBlendValue = Mathf.Lerp(materialBlendValue, 0.5f, Time.deltaTime \* 0.5f);
-            skyBoxMat.SetFloat("\_Blend", materialBlendValue);
+            character = GameObject.Find("Player");
+            sunlight = GameObject.Find("sunlight");
+
         }
 
+        // Update is called once per frame
+        void Update()
+        {
+
+            transform.Rotate(0, timeChange \* Time.deltaTime, 0);
+
+            //determine skybox texture depending on player's position
+            float materialAngleDifference = Vector3.Angle(character.transform.up, -sunlight.transform.forward);
+            //Debug.Log(materialAngleDifference);
+
+            // float materialBlendValue = materialAngleDifference / 180.0f;
+
+            if (materialAngleDifference < 65)         {             materialBlendValue = Mathf.Lerp(materialBlendValue, 1.0f, Time.deltaTime \* 0.5f);             skyBoxMat.SetFloat("\_Blend", materialBlendValue);             Debug.Log(materialAngleDifference);         }         else if (materialAngleDifference >= 110)
+            {
+                materialBlendValue = Mathf.Lerp(materialBlendValue, 0.0f, Time.deltaTime \* 0.5f);
+                skyBoxMat.SetFloat("\_Blend", materialBlendValue);
+            }
+            else
+            {
+                //materialBlendValue = materialAngleDifference / 180.0f;
+                materialBlendValue = Mathf.Lerp(materialBlendValue, 0.5f, Time.deltaTime \* 0.5f);
+                skyBoxMat.SetFloat("\_Blend", materialBlendValue);
+            }
+
+       }
     }
-}
 
 The _timeChange_ value calculates the amount of time it takes for the sun(directional light) to make a full revolution around the planet. I parented the sunlight and moonlight so they would be rotating at the same time. No chance for an eclipse with this setup!
 
@@ -137,6 +137,6 @@ Notice how the if statements by the "materialAngleDifference" aren't very clear.
 
 I did this because it is almost impossible for the sky to look fully day or night when there is a tiny region where it is actually 1, or 0. The part below sets the values for the shader.
 
-skyBoxMat.SetFloat("\_Blend", materialBlendValue);
+    skyBoxMat.SetFloat("\_Blend", materialBlendValue);
 
 An important note that the above code targets the material itself. There is no reference to the actual skybox object. If you go into the shader, you will see something called "\_Blend". That is the slider property. Materials in Unity have shader functionality that you can use to affect how things look. This is one way to manipulate those properties.

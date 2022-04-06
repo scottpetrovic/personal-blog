@@ -1,13 +1,16 @@
 ---
 title: "Unity 3 Game Development Hotshot Book Review"
 date: "2011-11-13"
+featured_image: "/images/unity-3-hotshotBook.jpg"
 categories: 
   - "computer"
   - "game"
   - "unity3d"
 ---
 
-![Unity 3 Game Development - HOTSHOT](/images/unity-3-hotshotBook.jpg "unity-3-hotshotBook")The Unity 3 Game Development Hotshot book has been released and it had my name on it. I was wondering what type of "hotshot" advice it could help me with. I always love learning new things, so I picked up the Kindle version and started going at it.
+![Unity 3 Game Development - HOTSHOT](/images/unity-3-hotshotBook.jpg "unity-3-hotshotBook")
+
+The Unity 3 Game Development Hotshot book has been released and it had my name on it. I was wondering what type of "hotshot" advice it could help me with. I always love learning new things, so I picked up the Kindle version and started going at it.
 
 By the way, if you get the Kindle version, it is easier to read if you make it display horizontally. The code examples are really hard to read if it is in vertical mode.
 

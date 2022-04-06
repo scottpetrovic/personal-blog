@@ -7,7 +7,9 @@ categories:
   - "illustration"
 ---
 
-[![final_samurai_small](/images/final_samurai_small.jpg "final_samurai_small")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/final_samurai.jpg "samurai illustration")I have had an itching to do something a little more creative and unorthodox lately. I am usually very self-concious about my artistic skills and always think that the only way I can make something good is by following someone elses' example.
+[![final_samurai_small](/images/final_samurai_small.jpg "final_samurai_small")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/final_samurai.jpg "samurai illustration")
+
+I have had an itching to do something a little more creative and unorthodox lately. I am usually very self-concious about my artistic skills and always think that the only way I can make something good is by following someone elses' example.
 
 For many years, I drew scrictly by copying manga and trying to duplicate other things I like. While I still enjoy that at times, it quickly becomes boring now.
 
@@ -19,7 +21,9 @@ Anyway, I will explain how I created this illustration from start to finish.
 
 ### Ideation and rough concepts
 
-[![samurai_sketch](/images/samurai_sketch.jpg "samurai_sketch")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/samurai_sketch.jpg)Art and design is all about the idea, everything else is just details. I love doing digital art that feels natural and free-flowing, so I start things off on a sketch pad. At first I wanted to copy an existing character, but couldn't find a pose and character that really evoked what I wanted to convey.
+[![samurai_sketch](/images/samurai_sketch.jpg "samurai_sketch")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/samurai_sketch.jpg)
+
+Art and design is all about the idea, everything else is just details. I love doing digital art that feels natural and free-flowing, so I start things off on a sketch pad. At first I wanted to copy an existing character, but couldn't find a pose and character that really evoked what I wanted to convey.
 
 I have come to the conclustion that I have [vacansopapurosophobia](http://www.amazon.com/Vacansopapurosophobia-Fear-Blank-Various-Youth/dp/0977928918 "The deadly killer"). I can't pronounce it and couldn't spell it if asked, but almost all artists have it.  I turned on some good music and just started doodling. I drew a couple pages of poses and picked one that was appealing to me.  I drew a frontal view and started putting together what the character would look like. I wanted him to be some type of warrior.
 
@@ -45,7 +49,9 @@ I added an aura around him using a waterbrush. By using salt and water brushes s
 
 ### Illustrator
 
-[![samurai_illustrator](/images/samurai_illustrator.jpg "samurai_illustrator")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/samurai_illustrator.jpg)In the ImagineFX magazine I read, most concept artists seem to go back and forth between Photoshop and Painter, but I thought Illustrator has really fantastic tools to help as well. I popped the graphic  in Illustrator and started playing around. There was a nice road sign symbol in the symbol libraries, so I thought I would use that.
+[![samurai_illustrator](/images/samurai_illustrator.jpg "samurai_illustrator")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/samurai_illustrator.jpg)
+
+In the ImagineFX magazine I read, most concept artists seem to go back and forth between Photoshop and Painter, but I thought Illustrator has really fantastic tools to help as well. I popped the graphic  in Illustrator and started playing around. There was a nice road sign symbol in the symbol libraries, so I thought I would use that.
 
 The key to using the image sprayer is having variety. When you first lay down embellishments with the spray can, they are all uniform in nature.  By rotating, resizing, staining, styling, scrunching, and tinting the graphics, they look a lot more lively and dynamic.
 

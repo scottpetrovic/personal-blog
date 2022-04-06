@@ -1,13 +1,16 @@
 ---
 title: "Responsive Web Design Book Review and Insights"
 date: "2012-04-17"
+featured_image: "/images/responsive-web-design-cover.jpg"
 categories: 
   - "interaction-design"
   - "reviews"
   - "web-design"
 ---
 
-[![](/images/responsive-web-design-cover.jpg "responsive-web-design-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/responsive-web-design-cover.jpg)I recently finished a couple of books from A List Apart titled "Mobile First" and "Responsive Web Design". They are shorter books ( ~150 pages each), but they are concise and to the point. The mobile first was more of a sales book promoting why web designers need to consider mobile devices first and some common practices for thinking about the user expierience of a mobile user.
+[![](/images/responsive-web-design-cover.jpg "responsive-web-design-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/responsive-web-design-cover.jpg)
+
+I recently finished a couple of books from A List Apart titled "Mobile First" and "Responsive Web Design". They are shorter books ( ~150 pages each), but they are concise and to the point. The mobile first was more of a sales book promoting why web designers need to consider mobile devices first and some common practices for thinking about the user expierience of a mobile user.
 
 This post is going to focus on the responsive web design book, since it was more of a hands on book.
 
@@ -83,7 +86,7 @@ I did a little test trying to see how small web browsers would go. The CSS rules
 
 **Chrome 18** - 135 pixels
 
-\[caption id="attachment\_1850" align="aligncenter" width="550" caption="current browser minimum width"\][![](/images/responsive-design-browser-min-width.png "responsive-design-browser-min-width")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/responsive-design-browser-min-width.png)\[/caption\]
+[![](/images/responsive-design-browser-min-width.png "responsive-design-browser-min-width")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/responsive-design-browser-min-width.png)
 
  
 
@@ -91,21 +94,23 @@ I doubt many mobile devices have a width of 135 pixels, but is something to keep
 
 Here are a couple great examples that I like. I will definitely be studying them and thinking of new ways to design websites with this new enhancement. You can do a google search and find many examples that large and small companies have already deployed.
 
-## [Fore Fathers Group](http://forefathersgroup.com/ "Fore Father's Group")
+## Fore Fathers Group
+
+http://forefathersgroup.com/
 
 This website has a great creative use of colors and does an excellent job of looking good at every dimension. There is no size that drastically changes the layout. It slowly morphs the layout as the browser gets smaller.
 
 [![](/images/responsive-design-sample.jpg "responsive-design-sample")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/responsive-design-sample.jpg)
 
-## [The Boston Globe](http://www.bostonglobe.com/)
+## The Boston Globe
+
+http://www.bostonglobe.com/
 
 Creative websites are good, but what about websites that just have a ton of content like the Boston Globe. Instead of eliminating content, they go the approach of just wrapping the column content into less columns. It works well. You have to scroll a lot to see everything as one column, but all of the content is still presented well and browsing is still enjoyable.
 
 [![](/images/boston-globe-responsive.jpg "boston-globe-responsive")](http://blog.scottpetrovic.com/wp-content/uploads/2012/04/boston-globe-responsive.jpg)
 
- 
-
- 
+  
 
 ## Conclusion
 

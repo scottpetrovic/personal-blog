@@ -6,7 +6,9 @@ categories:
   - "unity3d"
 ---
 
-[![](/images/unityLogo.jpg "unityLogo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/unityLogo.jpg)With Unity 3 being released a little while ago, my adrenaline is pumping. I know that if I had a PRO version of it, I could have been on the beta list a long time ago. But since I am not making any money with this, I don't see it being economical to spend the money right now. Most people that are just starting in game development probably won't buy the pro version. The download is 403 MB, which is WAY bigger than the 167MB download for Unity2.6. That must say a lot about how big this release is.
+[![](/images/unityLogo.jpg "unityLogo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/unityLogo.jpg)
+
+With Unity 3 being released a little while ago, my adrenaline is pumping. I know that if I had a PRO version of it, I could have been on the beta list a long time ago. But since I am not making any money with this, I don't see it being economical to spend the money right now. Most people that are just starting in game development probably won't buy the pro version. The download is 403 MB, which is WAY bigger than the 167MB download for Unity2.6. That must say a lot about how big this release is.
 
 That coupled with me hopefully getting a copy of  [Unity 3D Game Development by Example Beginner's Guide](https://www.packtpub.com/unity-3d-game-development-by-example-beginners-guide/book), I will take a slight hiatus from my game and delve into the new features and book. I don't think the book has much Unity3 content, but that is fine. I can probably go through it relatively quickly since I have spent some time with it already.
 

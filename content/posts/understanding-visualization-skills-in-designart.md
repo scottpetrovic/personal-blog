@@ -1,12 +1,13 @@
 ---
 title: "Understanding Visualization Skills in Design/Art"
 date: "2009-03-20"
+featured_image: "/images/scary_monkey.jpg"
 categories: 
   - "art"
   - "illustration"
 ---
 
-[](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/convergence_lens.jpg)[![convergence_lens](/images/convergence_lens.jpg "convergence_lens")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/convergence_lens.jpg)One of the skills that doesn't really get discussed much in art and design are visualization skills. What are visualization skills? How can this help people in the creative field?
+One of the skills that doesn't really get discussed much in art and design are visualization skills. What are visualization skills? How can this help people in the creative field?
 
 When people want to draw or design something, they generally start off doing different things to get their "creative juices" flowing. This could be listening to music, looking at other designs or art, or just doodling on a piece of paper.
 
@@ -22,15 +23,17 @@ Let me just start off by saying that you have the ability to vividly see images 
 
 Not only did you see the images in your mind, but you actually _believed_ that they were really happening. You might have woken up scared stiff - or even wished you could have remained dreaming a little longer. This powerful part of your brain is something just about everyone has (my apologies to the people that have never dreamed before).
 
-### Dreams
+## Dreams
 
-[![scary_monkey](/images/scary_monkey.jpg "scary_monkey")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/scary_monkey.jpg)There are a few theories to how dreaming works, but the one I believe that is the most accurate is the 1973 theory by Allan Hobson and Robert McCarley. They believe that the brain has random electrical impulses that fire in our brains. These electrical impulses pull information from our memories, feelings, emotions, vision, auditory, and other sense - pretty much everything.
+[![scary_monkey](/images/scary_monkey.jpg "scary_monkey")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/scary_monkey.jpg)
+
+There are a few theories to how dreaming works, but the one I believe that is the most accurate is the 1973 theory by Allan Hobson and Robert McCarley. They believe that the brain has random electrical impulses that fire in our brains. These electrical impulses pull information from our memories, feelings, emotions, vision, auditory, and other sense - pretty much everything.
 
 There isn't a set pattern that the electrical impulses follow. It is completely random. This helps explain the chaotic nature of dreams. Totally free from structure and order.
 
 The real question is how can you tap into that part of your brain without being asleep. There is no better creative tool than having every aspect of your life have the potential to be part of your art or story.
 
-**Ideas**
+## Ideas
 
 The best ideas seem to come when  you are doing other things that aren't directly related to what you want to accomplish.  Listening to music, reading a book, playing a video game, etc.
 
@@ -38,7 +41,7 @@ When you focus your mind on other areas, you forget about all of the technical r
 
 When you do these other "activities"  for a while, your mind begins filling with different rules that are geared toward them. When you transition back to your original drawing, essay, whatever, your mind is still locked in the other area. This allows your mind to break free from the tunnel vision and thought you had before.
 
-**Techniques to improve and use your creativity/semi-consciousnesses**
+## Techniques to improve and use your creativity/semi-consciousnesses
 
 Listen to music and just lay in your bed. Try not to fall asleep. Concentrate on the music and think in terms of movies. Movies have soundtracks that go with the action and mood of the story . What type of movie would this music go with? What are the characters doing? Where are they going? Is there a fight? Love and romance? Just let the music take the imagery away. It usually takes about 5-10 minutes for me to really start making the connection. Pick music that is in the direction you want to go - don't pick Irish folk music if you are trying to come up with a bloody war scene (unless that is how you think of Irish music).
 
@@ -50,7 +53,7 @@ Doing other activites that produce "theta waves" (same waves when you are dreami
 
 One of the hardest things I have heard artists do is by closing their eyes, come up with an image, and then draw it while their eyes are still closed. This must be pretty advanced, because my drawings look like baby vomit when I try.
 
-### Conclusion
+## Conclusion
 
 Using these techniques are great, but they definitely aren't a substitute for hard work and practice. You might have some great ideas, but if you don't have the knowledge and expertise in what you are doing, it will be very difficult to create beautiful artwork. A demon flying around some skyscrapers might be neat, but it also might be corny and unappealing. It all depends on how you execute it. The devil is in the details, and it is hard to flesh out the details without a better understanding of anatomy, architecture, space, whatever. 
 

@@ -11,11 +11,11 @@ For some weird reason, something is taking my port  80 (default gateway to conn
 
 Backing up and restoring the database on my local machine was surprisingly simple. It was mostly a matter of going on my web host, downloding the sql database, then creating and importing the table data to my local sql database. I had to change a connection string file so the blog knows where to access my database.
 
-**Search functionality**
+## Search functionality
 
 Search functionality actually works now. I didn't realize that it didn't work before, but it didn't. Hooray! It was originally set up to use [Google CSE](http://www.google.com/coop/cse/), but that would have advertising and that sounded annoying, so I didn't use that. The default theme has a nice site search, so it was just a matter of copying some code where the search bar was.  Pretty simple.
 
-**Styling**
+## Styling
 
 I changed the look to be a little more like my portfolio site. Most  of the changes and updates were just standard HTML and CSS changes. One really neat thing I learned was how to manage icon images. Instead of having one image for each icon, they are all in one image. When they are referenced in CSS, all you need to do is offset the position until you get to the right one. I will definitely be using that on future projects.
 

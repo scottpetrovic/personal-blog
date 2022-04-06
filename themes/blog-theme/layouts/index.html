@@ -7,7 +7,7 @@
 <div class="posts-listing">
   {{ range .Pages  }}
 
-      {{ range ( where .Pages "Type" "posts" | first 25 ) }}
+      {{ range ( where .Pages "Type" "posts" | first 35 ) }}
 
       <a class="card" href="{{ .RelPermalink }}">
         <article class="post-snippet preview">

@@ -6,7 +6,9 @@ categories:
   - "game"
 ---
 
-[![Mr. Gimbal Lock](/images/mrGimbalLock.gif "Mr. Gimbal Lock")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/mrGimbalLock.gif)I have been reading a 3d Math book and have been trying to learn some 3d concepts and how they operate. It talks a lot about the pros and cons of using different models of angular displacement such as Euler angles and Quaternions.
+[![Mr. Gimbal Lock](/images/mrGimbalLock.gif "Mr. Gimbal Lock")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/mrGimbalLock.gif)
+
+I have been reading a 3d Math book and have been trying to learn some 3d concepts and how they operate. It talks a lot about the pros and cons of using different models of angular displacement such as Euler angles and Quaternions.
 
 This topic isn't very visually exciting, so I created my rendition of "Mr. Gimbal Lock" to the left. You now have a visual reference for the upcoming sinister snake-like creature it is! :) Keep reading to find out.
 

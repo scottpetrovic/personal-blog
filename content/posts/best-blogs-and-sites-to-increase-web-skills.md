@@ -1,13 +1,16 @@
 ---
 title: "Best blogs and sites to increase web skills"
 date: "2009-02-18"
+featured_image: "/images/reading_book.jpg"
 categories: 
   - "life"
   - "reviews"
   - "web-design"
 ---
 
-![reading_book](/images/reading_book.jpg "reading_book")There are so many great sites and blogs out there that have content and tutorials on learning things, there is little need for buying internet books at Borders or Barnes & Nobles.
+![reading_book](/images/reading_book.jpg "reading_book")
+
+There are so many great sites and blogs out there that have content and tutorials on learning things, there is little need for buying internet books at Borders or Barnes & Nobles.
 
 I don't think I would ever write a tutorial on how to to do something unless I couldn't find it anywhere (which is almost NEVER the case). My tutorials would consist of saying what I am doing, referencing articles, books, or videos, and then saying additional problems I had after looking over the resource. Anything else just seems to be wasting time.
 
@@ -15,7 +18,7 @@ I read quite a bit from books, but most of the information I need can be found o
 
 Here is a list of the top resources I use to increase my productivity. The fastest and easiest resources are blogs, so I will start off with a list of my favorite blogs I follow.
 
-**Blogs**
+## Blogs
 
 - [Occam's Razor](http://www.kaushik.net/avinash/) - Web Analytics Google Analytics Evangelist
 - [Lies, Damn Lies](http://www.liesdamnedlies.com/2009/02/what-do-you-get-the-data-geek-in-your-life-for-valentines-day.html) - Online Marketing
@@ -26,7 +29,7 @@ Here is a list of the top resources I use to increase my productivity. The faste
 
 I subscribe to all of these using Google Reader. I also have Shrook for Mac at work, but I like Google's interface and features better. Each blog/site all probably average about 1-2 posts per week. Some weeks the articles aren't that interesting, while other weeks they are priceless.
 
-**Other Resources**
+## Other Resources
 
 - Digg.com
 - Lynda.com
@@ -41,7 +44,7 @@ While it looks like I do nothing but read blogs and surfing, I can really do mos
 
 The Magazine subscriptions I have are mostly for fun. They are both from the UK, as there is nothing like them here in the states. They are a little more pricy than most magazines, but they really make my free time a little more exciting.
 
-**Next post...**
+## Next post
 
 The past couple of weeks I have been working on a small website, so I haven't had too much free time to really hammer out anything else. I have been reading and practicing my 3d modeling skills quite a bit, so I will probably go over what I have donr and explain some  of the problems I encountered (ahh...so many shortcuts in Blender). Also, maybe  give  good references and direction for how I built up my skills and workflow throughout the process.
 

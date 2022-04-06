@@ -12,15 +12,17 @@ I have spent about a year now learning to write and arrange music for video game
 
 ## Dating Simulator ( Anime/JPop music)
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2013/01/dating%20sim%20-%20final.mp3"\]
+{{<audio-player src="/audio/dating%20sim%20-%20final.mp3" caption="Music unlooped" >}}
+
 
 ## Vibe ( Zen/Ethereal)
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2013/01/ethereal-final.mp3"\]
+{{<audio-player src="/audio/ethereal-final.mp3" caption="Music unlooped" >}}
 
 ## [Heart Invaders](http://globalgamejam.org/2013/heart-invaders) ( 8 bit-ish)
 
-\[audio src="http://blog.scottpetrovic.com/wp-content/uploads/2013/01/8bit-final.mp3"\]
+{{<audio-player src="/audio/8bit-final.mp3" caption="Music unlooped" >}}
+
 
 ## Lessons Learned
 

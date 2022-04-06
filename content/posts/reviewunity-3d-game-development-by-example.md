@@ -1,13 +1,16 @@
 ---
 title: "Review:Unity 3D Game Development by Example"
 date: "2010-10-09"
+featured_image: "/images/0546_MockupCover_Beginers-guide-243x300.jpg"
 categories: 
   - "computer"
   - "game"
   - "unity3d"
 ---
 
-[![](/images/0546_MockupCover_Beginers-guide-243x300.jpg "0546_MockupCover_Beginers guide")](http://blog.scottpetrovic.com/wp-content/uploads/2010/10/0546_MockupCover_Beginers-guide.jpg)I feel like I am in 3rd grade again writing book reviews. Yes...it makes me feel like I am still young at heart. Before I give the review, I want to make a couple of points.
+[![](/images/0546_MockupCover_Beginers-guide-243x300.jpg "0546_MockupCover_Beginers guide")](http://blog.scottpetrovic.com/wp-content/uploads/2010/10/0546_MockupCover_Beginers-guide.jpg)
+
+I feel like I am in 3rd grade again writing book reviews. Yes...it makes me feel like I am still young at heart. Before I give the review, I want to make a couple of points.
 
 First, I received [Unity3D Game Development by Example Beginner's Guide](    http://www.packtpub.com/unity-2-5-game-development-guide/mid/231009vv93w4?utm_source=scottpetrovic.com%2Fblog&utm_medium=affiliate&utm_content=blog&utm_campaign=mdb_001181  ) by Ryan Creighton from Packt Publishing for free. They do things like that to spread the word about their new books. If I didn't like this book, I would give them feedback and not do a review (which I have done in the past).
 

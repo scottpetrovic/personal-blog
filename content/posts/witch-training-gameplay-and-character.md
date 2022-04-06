@@ -12,11 +12,18 @@ Below is my progress so far. The project is on google code, so you can download 
 
 [![Get Source download](/images/get_source_button.png "Get Source")](http://code.google.com/p/unity3d-witchtraining/downloads/list)
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/10/witchtraining-october2010.unity3d" width="600" height="350"/\]
+[Unity3d binary file](/unity3d/witchtraining-october2010.unity3d)
 
-**Controls**
 
-**walk/move when flying** - arrow keys **jump** \- spacebar **flight mode** - hit space bar again when in air **elevate**(while flying) - w **descend**(while flying) - s **throw bomb** - f (you can hold it down to give it more power. use while on the ground or flying!) **run/fly faster modifer** - left shift
+## Controls
+
+- **walk/move when flying** - arrow keys 
+- **jump** \- spacebar 
+- **flight mode** - hit space bar again when in air 
+- **elevate**(while flying) - w 
+- **descend**(while flying) - s 
+- **throw bomb** - f (you can hold it down to give it more power. use while on the ground or flying!) 
+- **run/fly faster modifer** - left shift
 
 The controls might be a little crazy right now. I need to do some more tweaking and talk to some people before I figure out what the best control scheme is for this.
 

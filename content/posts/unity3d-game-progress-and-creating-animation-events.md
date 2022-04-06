@@ -17,7 +17,7 @@ Check out the project so far.
 
 \[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2011/01/witch-training-010211.unity3d" width="600" height="350"/\]
 
-**Controls**
+### Controls
 
 **walk** - W/A/S/D **look around** \- Mouse **jump** \- spacebar **flight mode** - hit space bar again when jumping **throw bomb** - Mouse button (you can hold it down to give it more power. Use while on the ground or flying!) **run/fly faster modifer** - left shift
 
@@ -29,13 +29,13 @@ If you can't here it, there is sound effects for every footstep whether the witc
 
 To create animation events for locked animations, the best way to add events is to duplicate the animation state. What does that mean? It means that you need to select the animation in your project window and go to _Edit > Copy_ . See image below.
 
-\[caption id="attachment\_1452" align="aligncenter" width="197" caption="Copying the animation from model"\]![animation state selecting](/images/animation-events01.jpg "animation-events01")\[/caption\]
+![animation state selecting](/images/animation-events01.jpg "animation-events01")
 
 The above image is the type of thing you want to copy. If you aren't using the model in my project, Ramius is the character's model I made in Blender3D. Unity will create all of these items based on your import settings. The animations were created in the import settings as well with the names you give them. Select the animation like above copy and paste it.
 
 The reason why you have to copy it is because the original walk animation is really just a dynamically created setting that Unity creates from the source file. You can't edit or save it because it will constantly rebuild itself everytime you load new files or update anything. The only way to do anything with these files is duplicate them so there is a static version. You can do things like animation events at that point.
 
-\[caption id="attachment\_1453" align="aligncenter" width="298" caption="Animation state copies sitting safely outside of the model"\]![](/images/animation-events02.jpg "animation-events02")\[/caption\]
+![](/images/animation-events02.jpg "animation-events02")
 
 Once you have the copy, you can add it to your animation state on your game object  in your animation component. Once you've added a animation component to your gameobject you want to animate, select the object you have your animation component on and add the new references to it. See below.
 
@@ -43,7 +43,7 @@ Once you have the copy, you can add it to your animation state on your game obje
 
 I added the new run and walk animations to the "Elements". I do that by usually selecting one of the small "0" on the right side of the image. You can select your duplicated animation state. With the game object still selected go to _Window > Animation_ in the top toolbar to start setting points.
 
-\[caption id="attachment\_1456" align="aligncenter" width="493" caption="Selecting animation state to add animation event"\]![](/images/animation-events04.jpg "animation-events04")\[/caption\]
+![](/images/animation-events04.jpg "animation-events04")
 
 You will see that when you choose which animation you want to edit, most of them will say "Read-Only". This is because these animations are getting pulled from Blender,the 3d program I am using, to get this animation data. You can't edit or add and save animation events with these.
 
@@ -55,7 +55,7 @@ But that doesn't matter since we already created a copy of what we want to use. 
 
 Once you have your animation state selected ( I have the walk animation state selected), you can begin adding events. If you bring up Scene view behind, you can see your model actually moving when you scrub the timeline. See below image.
 
-\[caption id="attachment\_1457" align="aligncenter" width="489" caption="Where to put the animation events"\]![](/images/animation-events05.jpg "animation-events05")\[/caption\]
+![](/images/animation-events05.jpg "animation-events05")
 
 Once you scrub your animation to know where you want an event. You can create an event there (right most icon on the play toolbar). If you select the event, you will notice that there are no options for what it wants to do. We will do that next.
 
@@ -63,16 +63,16 @@ Once you scrub your animation to know where you want an event. You can create an
 
 In order for the animation events to to fire off a function for an event, it needs to know where it is. The way animation events work, there has to be a script attached to the gameobject that has the animation component as well. See below.
 
-\[caption id="attachment\_1459" align="aligncenter" width="566" caption="Adding a script for animation events"\]![](/images/animation-events07.jpg "animation-events07")\[/caption\]
+![](/images/animation-events07.jpg "animation-events07")
 
 I added a script to the same place the animation component is. You can create functions in there and that is what the animation window tool will see.
 
-public void walkAnimationEvent()
-	{
-		Debug.Log("Foot is down walking");
-		audio.PlayOneShot(walkSound);
-		audio.volume = 0.4f;
-	}
+    public void walkAnimationEvent()
+    {
+        Debug.Log("Foot is down walking");
+        audio.PlayOneShot(walkSound);
+        audio.volume = 0.4f;
+    }
 
 Once you add a function like the one above, you can go back to your animation window and select the event again. This time your new function will show up. When you run the game now, you will see that the event will fire every time the animation hits that frame. Success!
 

@@ -18,13 +18,13 @@ With simple geometry like this, the combine children script works really great f
 
 To make the buildings fast, you can just make one. Do a lot of duplicating and adjusting vertices. Make sure to place the buildings inside the edge of each city block. I adjusted the height of the individual buildings after I got the basic shape in place. You want a  little room for the sidewalk when placing the buildings. Google Maps doesn't account for this.  Here is the beginning of the city that I created in Unity3D. No collisions, so you can walk through the buildings. Sorry about the bad controls. I just threw some default scripts on a camera.
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2010/10/buildings-walkthrough.unity3d" width="600" height="350"/\]
+[Unity3D Walk through file](/unity3d/buildings-walkthrough.unity3d)
 
-**Mouse: Look Around**
 
-**Arrow Keys: Move around**
-
-**Spacebar: Jump**
+## Controls
+- **Mouse: Look Around**
+- **Arrow Keys: Move around**
+- **Spacebar: Jump**
 
 ## Next
 

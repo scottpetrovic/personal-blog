@@ -1,11 +1,14 @@
 ---
 title: "East West Symphonic Orchestra Install Process"
 date: "2012-02-25"
+featured_image: "/images/EWQLSO-box.jpg"
 categories: 
   - "music-recording"
 ---
 
-[![](/images/EWQLSO-box.jpg "EWQLSO-box")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/EWQLSO-box.jpg)During the Valentine's Day bonanza this year, [East West](http://www.soundsonline.com/) had a 50% off sale on almost all of their products. I was wanting to get an orchestral [VST](http://en.wikipedia.org/wiki/Virtual_Studio_Technology) pack for a little while, and thought I would jump on the opportunity. To use the software, you also need to have an [iLok](http://ilok.com/) for it to work - will explain more about iLoks later.
+[![](/images/EWQLSO-box.jpg "EWQLSO-box")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/EWQLSO-box.jpg)
+
+During the Valentine's Day bonanza this year, [East West](http://www.soundsonline.com/) had a 50% off sale on almost all of their products. I was wanting to get an orchestral [VST](http://en.wikipedia.org/wiki/Virtual_Studio_Technology) pack for a little while, and thought I would jump on the opportunity. To use the software, you also need to have an [iLok](http://ilok.com/) for it to work - will explain more about iLoks later.
 
 If you aren't familiar with the quality of this pack, you can check out their website. Some great sounds.
 

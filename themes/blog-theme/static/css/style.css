@@ -7,6 +7,19 @@
   color: #403f58;
 }
 
+audio {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  text-align: center;
+}
+figcaption {
+  margin: 0.5rem;
+  font-style: italic;
+}
+
 body {
   margin: 0;
 }
@@ -25,6 +38,7 @@ h2, h3 {
   margin: 1rem 0;
   margin-top: 3rem;
   font-size: 240%;
+  line-height: 120%;
 }
 
 h3 {
@@ -33,7 +47,7 @@ h3 {
 
 p {
   line-height: 141%;
-  font-size: 125%;
+  font-size: 1.25rem;
 }
 
 ol, ul, li {

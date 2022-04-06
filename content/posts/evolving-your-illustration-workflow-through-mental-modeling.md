@@ -1,6 +1,7 @@
 ---
 title: "Evolving Your Illustration Workflow through Mental Modeling"
 date: "2011-07-30"
+featured_image: "/images/imagineFX-workflow.jpg"
 categories: 
   - "art"
   - "illustration"
@@ -35,8 +36,6 @@ The main thing to do is break a painting process into chunks and make additional
 He seems to work in layers. One layer might be adding highlight to the whole picture. I watch the first few spots he will do the highlights. After that, he repeats the same technique over and over until he covers the whole painting. All of the repetition isn't as interesting, so I usually will fast forward until it hits a point where he goes to his next step of the process. That seems to be the most efficient way to watch these videos in my opinion.
 
 Here are the basic steps that I noticed while studying Gonzala's workflow for this painting:
-
- 
 
 1. Make sure dimensions are right size (300 dpi and inches are correct)
 2. Ink drawing on layer above ( have more line weight variance around face and eyes)
