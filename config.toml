@@ -1,9 +1,5 @@
 baseURL = 'https://blog.scottpetrovic.com/'
 languageCode = 'en-us'
 title = 'Aberrant Investigations'
-theme = 'ananke' 
-
-Paginate = 25 # this is set low for demonstrating with dummy content. Set to a higher number
-
-[params]
-  recent_posts_number = 10
+theme = 'blog-theme' 
+sectionPagesMenu = "main"
