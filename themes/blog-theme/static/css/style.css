@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
+
 /* LAYOUT */
 
 * {
@@ -12,20 +14,21 @@ body {
 h1, h2, h3, h4 {
   font-weight: normal;
   margin-bottom: 0.5rem;
+  font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 h1 {
-  font-size: 240%;
+  font-size: 300%;
 }
 
 h2, h3 {
   margin: 1rem 0;
   margin-top: 3rem;
-  font-size: 200%;
+  font-size: 240%;
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 p {
@@ -83,20 +86,29 @@ ul.main-menu li a:hover {
 
 
 nav.site-nav {
-  background: #5290d0;
+  background: rgb(82,144,208);
+  background: linear-gradient(124deg, rgba(82,144,208,1) 0%, rgba(72,116,161,1) 100%);
+  box-shadow: 0px 4px 9px 0px #b3b3b3;
+
   padding: 1rem;
 }
 nav.site-nav a {
   text-decoration: none;
-  font-size: 1.5rem;
-  color: white;
 }
 
 
+.logo {
+  font-family: 'Saira Extra Condensed', sans-serif;
+
+  font-size: 1.8rem;
+  color: white;
+}
+
 .content {
-  margin-bottom: 2rem;
   max-width: 1100px;
   margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 footer {
@@ -114,6 +126,8 @@ footer p {
 .thumbnail-container {
   width: 15rem;
   height: 15rem;
+  box-shadow: 3px 3px 3px #868686;
+  margin: auto;
 }
 
 
@@ -150,7 +164,7 @@ footer p {
   margin-bottom: 1rem;
 }
 
-.post-snippet h3 {
+.post-snippet h2 {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
@@ -168,7 +182,7 @@ footer p {
 .card article:hover {
   background: #f2f3f3;
 }
-.card article:hover h3 {
+.card article:hover h2 {
   text-decoration: underline;
 }
 
