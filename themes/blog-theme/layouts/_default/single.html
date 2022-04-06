@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+<em>Length: {{ .ReadingTime }} min</em>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}
