@@ -102,9 +102,7 @@ ul.main-menu li a:hover {
 
 nav.site-nav {
   background: rgb(82,144,208);
-  background: linear-gradient(124deg, rgba(82,144,208,1) 0%, rgba(72,116,161,1) 100%);
   box-shadow: 0px 4px 9px 0px #b3b3b3;
-
   padding: 1rem;
 }
 nav.site-nav a {

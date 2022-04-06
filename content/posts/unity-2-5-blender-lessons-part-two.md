@@ -6,13 +6,13 @@ categories:
   - "life"
 ---
 
-[![maka_blender_model](/images/maka_blender_model.jpg "maka_blender_model")](http://blog.scottpetrovic.com/wp-content/uploads/2009/07/maka_blender_model.jpg)
+![maka_blender_model](/images/maka_blender_model.jpg "maka_blender_model")
 
 I have been fervently working with Unity 2.5 for Windows, or more precisely Blender 2.48b. Eventually you can't use all of the preset models and animations that Unity gives you, so I wanted to make my own and import it into Unity . This is no simple feat if you haven't done it before. My 3d package of choice right now is [Blender](http://www.blender.org/) since it is free and I have a [book](http://www.amazon.com/Essential-Blender-Guide-Creation-Source/dp/1593271662/ref=sr_1_3?ie=UTF8&s=books&qid=1247315838&sr=8-3) on it. I will go back and do some fine tuning with detail later, but I think I have the technical parts down good enough to try and import the model into Unity.
 
 I ran into a lot of challenges just getting to the point I have with modeling, rigging, and skinning.
 
-**Some important tips that I have learned thus far (using Blender 2.48b):**
+## Some important tips that I have learned thus far (using Blender 2.48b)
 
 - When you bring models into Unity, it has to triangulate all of the faces if they are quads, so be prepared to have an increased polycount when you import it.
 - Unity natively supports Blender files, so you don't have to export anything in different formats like FBX.

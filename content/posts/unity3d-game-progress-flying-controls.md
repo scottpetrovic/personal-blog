@@ -11,7 +11,7 @@ I have been tinkering around with the witch training game and the gameplay is st
 
 From the last post, I updated the character model textures. I experienced a weird bug where it gets really laggy when I play, but updating it to Unity 3.1 fixed the issue. As before with this game, it is getting too big to put a direct download link, so you can check out the project on Google Code. It has all of the raw art assets as well. I tried to cut some things down to decrease the file size.
 
-[![Get Source download](/images/get_source_button.png "Get Source")](http://code.google.com/p/unity3d-witchtraining/downloads/list)
+Source Code - http://code.google.com/p/unity3d-witchtraining/downloads/list
 
 The time looks a little nicer on the bottom of the screen. I have a little GUI manager script that I made that will manage all of the states. I have an enumerator that will switch off what state the game is in. That all works with a switch statement to determine what GUI windows needs to be opened. When a GUI window is needed, it will instantiate the windows themselves as a separate class.
 

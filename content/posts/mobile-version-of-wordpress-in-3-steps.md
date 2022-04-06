@@ -20,9 +20,9 @@ I just spent 15 minutes getting a mobile version of the blog to work. It was dea
 
 ## Testing to see if it works if you don't have a mobile device
 
-[![final_mobile](/images/final_mobile.gif "final_mobile")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/final_mobile.gif)
+![final_mobile](/images/final_mobile.gif "final_mobile")
 
-If you don't have a good way to test it, run Firefox and get the extension [User Agent Switcher addon](https://addons.mozilla.org/en-US/firefox/addon/59). This will allow Firefox to trick websites to thinking you are running anything from IE4 to iPhone 3.0 .  The default list doesn't have many agents, so [download this bigger list](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/switcher.xml) I found in the forum and import it.
+If you don't have a good way to test it, run Firefox and get the extension [User Agent Switcher addon](https://addons.mozilla.org/en-US/firefox/addon/59). This will allow Firefox to trick websites to thinking you are running anything from IE4 to iPhone 3.0 .  The default list doesn't have many agents, so [download this bigger list](/data/switcher.xml) I found in the forum and import it.
 
 Now just change your user agent to something like iPhone and go to your website. You should see your website mobified. Since the mobile version has its own theme, it can be customized just like any other theme. I really like how the theme uses the [one-window drill down design pattern](http://designinginterfaces.com/One-Window_Drilldown) for navigating. Good way to mesh mobile design into existing web design usage.
 

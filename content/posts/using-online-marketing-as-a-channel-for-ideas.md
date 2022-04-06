@@ -16,6 +16,6 @@ Generic sounding, but exactly what I want!! This has some great posts about dif
 
 I am a little skeptical about some online marketing ideas. While yes, some of the ideas could really take off, some of the ways are start up companies that really aren't that great of an idea. I guess you would just have to use your best judgement when deciding what to actually dive into.
 
-[![online marketing image](/images/online-marketing1-300x233.gif "online marketing image")](http://blog.scottpetrovic.com/wp-content/uploads/2009/01/online-marketing1.gif)
+![online marketing image](/images/online-marketing1-300x233.gif "online marketing image")
 
 Even though I am not into paid search advertising, one of the posts had a free 1 hour teleseminar on Google Adwords and a "cheat sheet" on how to improve your results. They tried to sign me up for a 5 day free thing, but I didn't feel like that commitment. It doesn't hurt to know a little of everything.

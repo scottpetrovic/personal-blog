@@ -27,7 +27,7 @@ I used two different ink weights in Painter X for the effect. A thick one for th
 
 ## Kaleidoscope tool
 
-[![](/images/painter_kaledoscope_tool_screenshot.gif "painter_kaledoscope_tool_screenshot")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/painter_kaledoscope_tool_screenshot.gif)
+![](/images/painter_kaledoscope_tool_screenshot.gif "painter_kaledoscope_tool_screenshot")
 
 For an explanation on how to use this tool in Painter X, go to the layers window and go to the plugin icon and click _Kaleidoscope_. It will ask you for a size. This tool always has to be square, so whatever you type in will be mirrored for the height.
 
@@ -37,7 +37,7 @@ The only two things you can do with the plugin layer is move it around with the 
 
 Here are a few more examples of the cool kaleidoscope painting that I concocted. They all kind of have the same feel. It would be cool if Corel could change the tool so it could be mirrored with different amounts. The tool is always gives a square layer that is divided into 8 mirrored areas.
 
-[![](/images/painter_kaledoscope_tool.gif "painter_kaledoscope_tool")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/painter_kaledoscope_tool.gif)
+![](/images/painter_kaledoscope_tool.gif "painter_kaledoscope_tool")
 
 ## Next
 

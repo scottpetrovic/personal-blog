@@ -10,7 +10,7 @@ tags:
   - "css-expressions"
 ---
 
-[![Don't cry, it is only CSS](/images/dontcrygirl.jpg "dontcrygirl")](http://blog.scottpetrovic.com/wp-content/uploads/2009/04/dontcrygirl.jpg)
+![Don't cry, it is only CSS](/images/dontcrygirl.jpg "dontcrygirl")
 
 This past week I have been reading a lot about these things called "CSS expressions" that I have never heard of. I read quite a bit about web trends and different techniques, but I have never run across this topic until this week.
 

@@ -34,8 +34,6 @@ So I just grabbed some of the movement scripts from the tutorial and changed the
 
 Go box man! Go! Don't fall off the edge!
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2009/07/player\_link.unity3d" width="600" height="350"/\]
-
 ## Controls
 
 - **Move** - W,A,S,D

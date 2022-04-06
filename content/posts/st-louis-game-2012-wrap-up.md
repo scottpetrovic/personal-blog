@@ -8,7 +8,7 @@ categories:
   - "music-recording"
 ---
 
-[![](/images/game-jam2012-logo.jpg "game-jam2012-logo")](http://blog.scottpetrovic.com/wp-content/uploads/2012/01/game-jam2012-logo.jpg)
+![](/images/game-jam2012-logo.jpg "game-jam2012-logo")
 
 I just came back from the St. Louis game jam and had such a blast. It was held this year at the University of Missouri - St. Louis campus by the airport. It started on Friday and ended on Sunday night. There was a great turnout with 70+ people. St. Louis was in the top 10% of participants worldwide this year, which made it even more fun to meet even more people and see more games!
 

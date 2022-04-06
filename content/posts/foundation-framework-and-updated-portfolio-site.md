@@ -28,7 +28,7 @@ IE9 doesn't support feature like CSS3 transitions and CSS gradients, so the expe
 
 Another point is that background images don't scale when things are getting resized. This meant I usually created background images taller than I needed. When the screen is smaller, it makes the containers taller, which affect the background images. I just created background images taller than necessary to adjust for screen resizing.
 
-[![](/images/responsive-website.jpg "responsive-website")](http://blog.scottpetrovic.com/wp-content/uploads/2012/07/responsive-website.jpg)
+![](/images/responsive-website.jpg "responsive-website")
 
 If you check out [the website](http://www.scottpetrovic.com) and look at the source code, you can see some more comments that I made.
 

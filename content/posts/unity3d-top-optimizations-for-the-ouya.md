@@ -8,7 +8,7 @@ categories:
   - "unity3d"
 ---
 
-[![ouya](/images/ouya.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2013/09/ouya.jpg)
+[![ouya](/images/ouya.jpg)]
 
 The Ouya needs some love if you want it to purr for you. It doesn't give you any slack when it comes to performance on this little $100 box. I have been developing a game for a few months and recently started testing it for the Ouya. The game is an open world sandbox, so optimization is at the forefront of my mind. I didn't originally think Ouya was going to be able to handle it.  There have been a lot "aha" moments along the way with improving the frames per second. Here is my top optimizations you can do now to get more frames per second.
 

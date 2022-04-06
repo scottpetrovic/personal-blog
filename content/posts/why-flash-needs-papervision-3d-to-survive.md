@@ -6,8 +6,6 @@ categories:
   - "web-analytics"
 ---
 
-<table style="border: 0px;" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><object width="250" height="250" data="http://blog.scottpetrovic.com/wp-content/uploads/2009/02/base1.swf" type="application/x-shockwave-flash"><param name="src" value="http://blog.scottpetrovic.com/wp-content/uploads/2009/02/base1.swf"></object></td><td>Anyone in the flash community has heard about Papervision3D and the great potential it has for the future of the internet - especially in the entertainment sector. In case you don't know much about it, it is an open source&nbsp;3D engine for&nbsp;Flash&nbsp; that can be an exciting solution to web projects. There are a slew of great sites that use Papervision.I made this "simple" example by using a combination of tutorials and looking at the imported packages.&nbsp; Just doing this simple thing is over 90 lines of code. Yowsers!!There are some really nice pieces right now on the web that use this technology a little better than me. Some of the neat ones that I have come across recently are below.</td></tr></tbody></table>
-
 [Augmented Reality Effect](http://blog.papervision3d.org/)
 
 [Spaceship](http://www.carlosulloa.com/demos/spaceship/) (use mouse to rotate around)
@@ -24,7 +22,7 @@ Flash is starting to get some heavy competition with other technologies that do 
 
 ## Competition
 
-[![jquery_logo](/images/jquery_logo.jpg "jquery_logo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/02/jquery_logo.jpg) 
+![jquery_logo](/images/jquery_logo.jpg "jquery_logo")
 
 Google has been working with Adobe to help the indexing, but I don't think that is good enough. Things like jQuery, AJAX, and ASP.net can do flash-like functionality without too much code. Using Flash is being less and less necessary for doing many things on the web. The main areas where Flash shines and nothing else can really compete very well is:
 
@@ -38,7 +36,7 @@ If I was Adobe, I would invest heavily into the 3d channel and really create a p
 
 **Papervision's complexity**
 
-[![logopapervision3d](/images/logopapervision3d.gif "logopapervision3d")](http://blog.scottpetrovic.com/wp-content/uploads/2009/02/logopapervision3d.gif)
+![logopapervision3d](/images/logopapervision3d.gif "logopapervision3d")
 
 The framework has been around for a little while, but it is still evolving at a fast pace. It is coming out with new revisions about twice a month. The revisions are hosted on [Google Code](http://code.google.com/p/papervision3d/). Anything that uses [SVN](http://en.wikipedia.org/wiki/Subversion_(software)) is going to change fast, so it is terribly difficult to update tutorials and documentation. Even while I try to learn simple things using tutorials, I am finding that classes get moved or functions take on different parameters than the tutorial explains.  Browsing through Amazon, I only found [one book](http://www.amazon.com/s/ref=nb_ss_gw_0_7?url=search-alias%3Daps&field-keywords=papervision&sprefix=papervi) about it that isn't out.
 

@@ -15,13 +15,13 @@ I wrote a post a little while ago on animation events describing what they are a
 
 Check out the project so far.
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2011/01/witch-training-010211.unity3d" width="600" height="350"/\]
+![Unity3D compiled file](/unity3d/witch-training-010211.unity3d "animation-events01")
 
 ### Controls
 
 **walk** - W/A/S/D **look around** \- Mouse **jump** \- spacebar **flight mode** - hit space bar again when jumping **throw bomb** - Mouse button (you can hold it down to give it more power. Use while on the ground or flying!) **run/fly faster modifer** - left shift
 
-[![Get Source download](/images/get_source_button.png "Get Source")](http://code.google.com/p/unity3d-witchtraining/)
+Source code - http://code.google.com/p/unity3d-witchtraining/
 
 If you can't here it, there is sound effects for every footstep whether the witch is walking or running. The way I did it is the following.
 
@@ -82,6 +82,6 @@ Looping animations such as walking are a little more complicated from what I hav
 
 Again, here is a link to the Google code project that has the source files if you missed it at the top.
 
-[![Get Source download](/images/get_source_button.png "Get Source")](http://code.google.com/p/unity3d-witchtraining/)
+Source code - http://code.google.com/p/unity3d-witchtraining/
 
 I haven't seen this in-depth of animation events on many blog posts, so hopefully this will help in understanding and using them in your project. Happy game making!

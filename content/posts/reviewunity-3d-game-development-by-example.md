@@ -8,7 +8,7 @@ categories:
   - "unity3d"
 ---
 
-[![](/images/0546_MockupCover_Beginers-guide-243x300.jpg "0546_MockupCover_Beginers guide")](http://blog.scottpetrovic.com/wp-content/uploads/2010/10/0546_MockupCover_Beginers-guide.jpg)
+![](/images/0546_MockupCover_Beginers-guide-243x300.jpg "0546_MockupCover_Beginers guide")
 
 I feel like I am in 3rd grade again writing book reviews. Yes...it makes me feel like I am still young at heart. Before I give the review, I want to make a couple of points.
 

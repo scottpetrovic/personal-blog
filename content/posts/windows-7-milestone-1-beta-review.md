@@ -9,7 +9,7 @@ tags:
   - "windows-7-beta"
 ---
 
-[![](/images/windows-7-logo.jpg "windows-7-logo")](http://blog.scottpetrovic.com/wp-content/uploads/2009/01/windows-7-logo.jpg)
+![](/images/windows-7-logo.jpg "windows-7-logo")
 
 After a little hiccup by Microsoft, they finally released the Windows 7 Beta. I was so anxiously waiting for the download - refreshing the page every hour seeing if they posted the download. According to initial reviews, they were only going to release 2.5 million public keys, so I thought I needed to act fast if I was going to get it. Long last I woke up the next morning and it was up. Hooray!! I promptly downloaded it and installed it on a empty partition on my big 500 GB hard drive. I found out later that they extended the keys and deadline until much later.
 
@@ -31,7 +31,7 @@ Not that this is something that you want to use often, but error reporting is pa
 
 Coming from XP, there are some pretty neat features that I really like. A big feature (which is kind of like Macs) is the taskbar where you can have programs that are running.
 
-[![](/images/taskbar1-300x134.jpg "windows 7 taskbar")](http://blog.scottpetrovic.com/wp-content/uploads/2009/01/taskbar1.jpg)
+![](/images/taskbar1-300x134.jpg "windows 7 taskbar")
 
 Once you start a program, the icon shows up down there. If you have multiple windows in an application (like a bunch of internet windows), you can see them all by hovering over the icon. Very neat feature and saves a ton of space on the taskbar. Favorite programs can be "pinned" to the taskbar so you don't need a shortcut on your desktop.
 

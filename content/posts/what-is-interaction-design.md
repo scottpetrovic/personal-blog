@@ -8,7 +8,7 @@ categories:
   - "web-design"
 ---
 
-[![interface_design](/images/interface_design.jpg "interface_design")](http://blog.scottpetrovic.com/wp-content/uploads/2009/04/interface_design.jpg)
+![interface_design](/images/interface_design.jpg "interface_design")
 
 I really hear interface design and interaction design get thrown around. How different is it then web design? If it has a whole field and job title to go along with it, it must be very unique.
 

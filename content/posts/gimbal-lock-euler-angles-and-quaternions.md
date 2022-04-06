@@ -6,7 +6,7 @@ categories:
   - "game"
 ---
 
-[![Mr. Gimbal Lock](/images/mrGimbalLock.gif "Mr. Gimbal Lock")](http://blog.scottpetrovic.com/wp-content/uploads/2010/05/mrGimbalLock.gif)
+![Mr. Gimbal Lock](/images/mrGimbalLock.gif "Mr. Gimbal Lock")
 
 I have been reading a 3d Math book and have been trying to learn some 3d concepts and how they operate. It talks a lot about the pros and cons of using different models of angular displacement such as Euler angles and Quaternions.
 
@@ -18,7 +18,8 @@ Another interesting scenario is how rotations affect each other. For my rotation
 
 Looking at the example, it looks as though they been transformed the exact same amount. Taking a peek at the code shows that they have different rotations. Code is using C#.
 
-[![](/images/get_source_button.png "Get Source Button")](/unity3d/gimballock.rar)
+[all of the project source files](/unity3d/gimballock.rar)
+
 
     using UnityEngine;
     using System.Collections;

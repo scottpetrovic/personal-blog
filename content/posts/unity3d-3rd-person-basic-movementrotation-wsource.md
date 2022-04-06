@@ -15,11 +15,9 @@ My example  still has about 30 lines of code for the basics (over 40 with comme
 
 - Controls: W,A,S,D move OR arrow keys
 
-\[WP\_UnityObject src="http://blog.scottpetrovic.com/wp-content/uploads/2009/12/basicMovement.unity3d" width="600" height="350"/\]
-
 ## Setup:
 
-If you want to start from scratch, you can start a new project and add an object you want to control and move. You can also start with a [setup project](http://blog.scottpetrovic.com/wp-content/uploads/2009/12/3rdPersonBasicMovement.rar) that I made. There is no gravity, physics, or collisions implemented with this explanation/tutorial, so you don't have to create a ground plane for your character to fall on. Just add a gameObject to the stage and add a script to the object. Add a character controller component to your character game object.  If you are using my set up file, just open the charactermovement.js script and you're ready.
+If you want to start from scratch, you can start a new project and add an object you want to control and move. You can also start with a [setup project](/unity3d/3rdPersonBasicMovement.rar) that I made. There is no gravity, physics, or collisions implemented with this explanation/tutorial, so you don't have to create a ground plane for your character to fall on. Just add a gameObject to the stage and add a script to the object. Add a character controller component to your character game object.  If you are using my set up file, just open the charactermovement.js script and you're ready.
 
 Nothing happens if you play the game now, since there is only one script and it is empty. Everything from this point on will be dealing with the script attached to the game object you want to move.
 

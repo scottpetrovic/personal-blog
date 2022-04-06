@@ -10,7 +10,7 @@ I have been spending some time reading the new Unity book, but managed to squeez
 
 Below is my progress so far. The project is on google code, so you can download it if you really want to get an early glimpse of it.
 
-[![Get Source download](/images/get_source_button.png "Get Source")](http://code.google.com/p/unity3d-witchtraining/downloads/list)
+Source code - http://code.google.com/p/unity3d-witchtraining/downloads/list
 
 [Unity3d binary file](/unity3d/witchtraining-october2010.unity3d)
 

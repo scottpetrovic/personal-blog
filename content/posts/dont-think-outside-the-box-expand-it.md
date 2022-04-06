@@ -6,7 +6,7 @@ categories:
   - "life"
 ---
 
-[![](/images/boxThinking1.jpg "boxThinking")](http://blog.scottpetrovic.com/wp-content/uploads/2010/04/boxThinking1.jpg)
+![](/images/boxThinking1.jpg "boxThinking")
 
 Learning about new subjects is important to me. This month I have been reading a book on a topic that gets a lot of people like me turned off and offended every time I hear the word : **Sales.**
 

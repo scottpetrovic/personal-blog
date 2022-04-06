@@ -7,7 +7,7 @@ categories:
   - "web-design"
 ---
 
-[![fontjazz](/images/fontjazz.png "fontjazz")](http://blog.scottpetrovic.com/wp-content/uploads/2009/06/fontjazz.png)
+![fontjazz](/images/fontjazz.png "fontjazz")
 
 I stumbled upon [FontJazz](http://fontjazz.com/) this week, a lightweight javascript engine that replaces text with custom fonts. There are other text replacement technologies, most notably sIFR ands CSS3 embed fonts, but they are sometimes slow or aren't fully supported.
 

@@ -9,7 +9,7 @@ categories:
 
 ![](/images/cello-detail.jpg "cello-detail")
 
-A continuation from [part 1](http://blog.scottpetrovic.com/2011/09/getting-started-with-digital-music-recording-part-1/ "Getting started with digital music recording: Part 1") of this two part post. This post will continue discussing getting set up for doing audio recording. At this point, you probably have all of the gear you need to get started, but there are still some technical hurdles that you may need to jump through to get everything working right.
+A continuation from [part 1](/posts/getting-started-with-digital-music-recording-part-1/ "Getting started with digital music recording: Part 1") of this two part post. This post will continue discussing getting set up for doing audio recording. At this point, you probably have all of the gear you need to get started, but there are still some technical hurdles that you may need to jump through to get everything working right.
 
 In the first post, I covered getting the right gear, hardware, and software get up and running. This post will continue talking about audio driver issues, learning about the software, and diving into the fun world of sound fonts, banks, and other intersting ways to improve the sound quality of your compositions.
 

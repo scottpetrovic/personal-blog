@@ -12,7 +12,7 @@ tags:
   - "personal"
 ---
 
-[![chasing witches](/images/witch_color3_008-150x150.jpg "witch_color3_008")](http://blog.scottpetrovic.com/wp-content/uploads/2009/01/witch_color3_008.jpg)
+![chasing witches](/images/witch_color3_008-150x150.jpg "witch_color3_008")
 
 I have been working hard on a personal illustration that I have been doing. I really have never taken a painting class before, but I read quite a bit and am hoping that my art skills can continue to improve. To see the image, click on the picture thumbnail.
 
@@ -24,4 +24,4 @@ I am starting to think about all of the aspects of painting from composition to 
 
 This image should be a great benchmark so I can see my progression throughout the year as I do more. I will probably do more studies of certain subject matter next. Maybe an eagle or sexy female body!! Woo hoo.
 
-[](http://blog.scottpetrovic.com/wp-content/uploads/2009/01/news_2008-04-12_soul-eater_logo1.jpg)
+[]

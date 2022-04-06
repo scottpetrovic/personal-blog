@@ -6,7 +6,7 @@ categories:
   - "web-design"
 ---
 
-[![How web deign makes me feel. Like a small girl crossing a dirt road](/images/girl_walking.jpg "girl_walking")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/girl_walking.jpg)
+![How web deign makes me feel. Like a small girl crossing a dirt road](/images/girl_walking.jpg "girl_walking")
 
 There are so many different aspects to web design that it hard to really have a "foundational" skill set. It is good to know how to program and make a page look pretty, but I think that is missing the purpose of this medium.
 
@@ -18,7 +18,7 @@ Here we go!
 
 ### Technical/Design skills
 
-[![coffee_cup](/images/coffee_cup.jpg "coffee_cup")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/coffee_cup.jpg)
+![coffee_cup](/images/coffee_cup.jpg "coffee_cup")
 
 **HTML and CSS semantic coding** Being able to hand code your sites and know the basic rules of how to mark up code semantically is a must for good web design. Good employers will look at your source code and see your naming conventions and how you structure your site. Don't be sloppy are or become dependent on WYSIWYG editors.  Just do a search on learning html and CSS to find a ton of sites to get learn more.
 

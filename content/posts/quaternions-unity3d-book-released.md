@@ -9,7 +9,7 @@ categories:
   - "unity3d"
 ---
 
-[![1223384_happy_girafes](/images/1223384_happy_girafes.jpg "1223384_happy_girafes")](http://blog.scottpetrovic.com/wp-content/uploads/2009/10/1223384_happy_girafes.jpg)
+![1223384_happy_girafes](/images/1223384_happy_girafes.jpg "1223384_happy_girafes")
 
 I have spent the past month learning and becoming frustrated with the concept of Quaternions. I thought it would be cooler to have some type of planetary gravity for my level where my character could fly to his heart's content around a sphere.
 
@@ -25,7 +25,7 @@ I found a great article helping to [understading quaternions](http://www.unitytu
 
 I don't really like reading a lot about history, but reading [wikipedia's article on Quaternions](http://en.wikipedia.org/wiki/Quaternion) explains the different dimensions of Quaternions and why they are needed.
 
-I also set up a scene in Unity and logged the values (i.e. Debug.Log(transform.rotation) ) of the quaternion vectors. Unity uses the quaternion class for rotations, so just move your character around and study the values as they shift. Use my files from an old [sample](http://blog.scottpetrovic.com/2009/08/updateunity3d-new-character-and-animations-with-full-source/) if  you don't have anything.
+I also set up a scene in Unity and logged the values (i.e. Debug.Log(transform.rotation) ) of the quaternion vectors. Unity uses the quaternion class for rotations, so just move your character around and study the values as they shift. Use my files from an old [sample](/posts/updateunity3d-new-character-and-animations-with-full-source/) if  you don't have anything.
 
 Honestly, I still don't really understand it that well. It will probably take some more digestion time for it to really sink in. I will keep at it though.
 

@@ -7,7 +7,7 @@ categories:
   - "web-design"
 ---
 
-[![krita-site-thumb](/images/krita-site-thumb1.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/08/krita-site-thumb1.jpg)
+[![krita-site-thumb](/images/krita-site-thumb1.jpg)]
 
 I have been spending the past couple of months working with the community reorganizing, rethinking, and re-designing the Krita marketing website. It was really fun working with the community, artists, and other developers to make this happen.
 

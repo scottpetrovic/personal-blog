@@ -6,14 +6,14 @@ categories:
   - "unity3d"
 ---
 
-_**This contest is over. Thanks to everyone who entered. I will be randomly selecting the winners and will let you know soon who will be selected.**_
+**This contest is over. Thanks to everyone who entered. I will be randomly selecting the winners and will let you know soon who will be selected.**
 
 Readers will be pleased to know that we have teamed up with Packt Publishing and are organizing a **Giveaway** for you. Six lucky winners stand a chance to win a copy of the best-selling books on Unity. Keep reading to find out how you can be one of the Lucky Winners.
 
 
 ## Unity 3.x Game Development Essentials
 
- [![](/images/unity-3-essentials-cover.jpg "unity-3-essentials-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-3-essentials-cover.jpg)
+![](/images/unity-3-essentials-cover.jpg "unity-3-essentials-cover")
 
 - Kick start your game development, and build ready-to-play 3D games with ease.
 - Understand key concepts in game design including scripting, physics, instantiation, particle effects, and more.
@@ -23,7 +23,7 @@ Readers will be pleased to know that we have teamed up with Packt Publishing and
 
 ## Unity iOS Essentials:
 
-[![](/images/unity-iOS-cover.jpg "unity-iOS-cover")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/unity-iOS-cover.jpg)
+![](/images/unity-iOS-cover.jpg "unity-iOS-cover")
 
 - Learn key strategies and follow practical guidelines for creating Unity 3D games for iOS devices.
 - Learn how to plan your game levels to optimize performance on iOS devices using advanced game concepts.

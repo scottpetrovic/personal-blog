@@ -15,7 +15,7 @@ tags:
   - "unity3d"
 ---
 
-[![u3dobject logo](/images/u3dobj_logo.png "u3dobject logo")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/u3dobj_logo.png)
+![u3dobject logo](/images/u3dobj_logo.png "u3dobject logo")
 
 I have been working with U3DObject for a a few weeks now and have been getting familiar with it. Because there is so little documentation with it, it is a little hard to figure out how everything works and is organized. The company that created this isn't an English company, so some of their English is a little bit hard to interpret in their documentation. In this post, I will try to explain the structure of the U3DObject framework as well as talk about the API.  A small stripped down demo project was made to better help understand the concepts. Take a look at [the demo project](http://www.scottpetrovic.com/demo/u3dObject/) that I will be going over.
 
@@ -23,7 +23,7 @@ I have been working with U3DObject for a a few weeks now and have been getting f
 
 One of the things that was the most frustrating was that some of the files in the Google Code version are off. There is a lot of extra files that are confusing and a couple javascript calls in the API were wrong. First,  grab the source project I made and look it over.
 
-[![get_source_button](/images/get_source_button.png "get_source_button")](http://blog.scottpetrovic.com/wp-content/uploads/2010/03/u3dObject_basic.rar)
+![get_source_button](/images/get_source_button.png "get_source_button")
 
 ## Folder Structure and organization
 

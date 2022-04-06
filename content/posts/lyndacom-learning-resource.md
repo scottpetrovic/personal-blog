@@ -6,7 +6,7 @@ categories:
   - "reviews"
 ---
 
-[![](/images/images.jpeg "Lynda.com")](http://lynda.com)
+![](/images/images.jpeg "Lynda.com")
 
 Since March of 2007, I have been watching a lot of internet videos on Lynda.com. If you don't know much about Lynda.com, it is a video training database for learning applications, programs, and programming languages.
 

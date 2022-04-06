@@ -21,7 +21,7 @@ Come on guys!
 
 I might let them know later. It looks nice though (especially for an open source project).
 
-[![blender-site](/images/blender-site.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/04/blender-site.jpg)
+[![blender-site](/images/blender-site.jpg)]
 
 ## Post Website
 
@@ -47,7 +47,7 @@ Instead of getting too technical in this post, I am going to highlight some ecos
 
 ## Mailing lists
 
-[![blender-mailing-list](/images/blender-mailing-list.jpeg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/04/blender-mailing-list.jpeg)
+[![blender-mailing-list](/images/blender-mailing-list.jpeg)]
 
 At first, I thought this type of thing was very old fashioned, but later came to realize how valuable and powerful these are. If you don't know how they work, you can subscribe to a mailing list with a topic or area you are interested in. Any time someone in that area needs to let everyone know of something important, you will get an email with their message.
 
@@ -57,7 +57,7 @@ The nicest things about communication using mailing lists is that you have a cen
 
 ## IRC
 
-[![blender-irc](/images/blender-irc.jpeg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/04/blender-irc.jpeg)
+[![blender-irc](/images/blender-irc.jpeg)]
 
 Another open source favorite. There are a ton of IRC clients out there, but I am using one called Chatzilla. It is just a Firefox plug in. The extension just opens a window where you specify a network and channel. This is where developers go to ask questions, as well as where Blender holds there weekly status updates.
 
@@ -67,7 +67,7 @@ The most complicated part of the Blender meetings is that everyone that contribu
 
 ## Documentation
 
-[![blender-wiki](/images/blender-wiki.jpeg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/04/blender-wiki.jpeg)
+[![blender-wiki](/images/blender-wiki.jpeg)]
 
 One of the most difficult things almost everyone agrees on in Blender is how hard it is to keep [documentation](http://wiki.blender.org/index.php/Dev:Contents) up to date. The code base changes at such a frenetic pace, that it can be difficult to always update the documentation.
 
@@ -77,7 +77,7 @@ I am always a big advocate of commenting your code well. While reading some docu
 
 ## Learning the code base
 
-[![blender-ide](/images/blender-ide.jpeg)](http://blog.scottpetrovic.com/wp-content/uploads/2014/04/blender-ide.jpeg)
+[![blender-ide](/images/blender-ide.jpeg)]
 
 Getting up to speed in the Blender code base is quite a feat in itself. After talking to a couple of the developers, they let me know it takes about a year for someone to start feeling like they are actually useful.
 

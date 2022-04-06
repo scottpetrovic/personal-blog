@@ -25,7 +25,7 @@ Not only did you see the images in your mind, but you actually _believed_ that t
 
 ## Dreams
 
-[![scary_monkey](/images/scary_monkey.jpg "scary_monkey")](http://blog.scottpetrovic.com/wp-content/uploads/2009/03/scary_monkey.jpg)
+![scary_monkey](/images/scary_monkey.jpg "scary_monkey")
 
 There are a few theories to how dreaming works, but the one I believe that is the most accurate is the 1973 theory by Allan Hobson and Robert McCarley. They believe that the brain has random electrical impulses that fire in our brains. These electrical impulses pull information from our memories, feelings, emotions, vision, auditory, and other sense - pretty much everything.
 

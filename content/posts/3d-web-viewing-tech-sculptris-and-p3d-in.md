@@ -7,7 +7,7 @@ categories:
   - "illustration"
 ---
 
-[![sculptris-logo](/images/sculptris-logo.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2013/06/sculptris-logo.jpg)
+[![sculptris-logo](/images/sculptris-logo.jpg)]
 
 I recently was looking at some 3D art and the whole "3D sculpturing" technology seems to be standard now for doing modeling. I have been doing polygonal modeling in the past, but didn't want to fork over the $$$ for the usual tools like ZBrush or Mudbox. I learned about [Sculptris](http://pixologic.com/sculptris/) a while ago, but never got around to spend time with it.
 

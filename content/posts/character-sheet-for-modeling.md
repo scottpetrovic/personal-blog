@@ -9,7 +9,7 @@ categories:
   - "illustration"
 ---
 
-I have read through the first seven chapters of the [Character Development in Blender 2.5](http://blog.scottpetrovic.com/2011/12/death-of-witch-training-game/) book and was thinking it would be more productive if I could model a character that I created. When learning something new, I think you can learn new concepts at a deeper level if you create a derivative work. Since you can't just copy steps verbatim, it forces you to understand what the person is trying to teach.
+I have read through the first seven chapters of the [Character Development in Blender 2.5](/posts/death-of-witch-training-game/) book and was thinking it would be more productive if I could model a character that I created. When learning something new, I think you can learn new concepts at a deeper level if you create a derivative work. Since you can't just copy steps verbatim, it forces you to understand what the person is trying to teach.
 
 Here is the illustration that I did for the modeling. It took me about 20 hours to do. Most of the time was spent dealing with the character details and balancing the different aspects of what I think is in good character design.
 

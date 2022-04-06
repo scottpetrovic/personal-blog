@@ -6,7 +6,7 @@ categories:
   - "life"
 ---
 
-[![](/images/winner-graphic.jpg "winner-graphic")](http://blog.scottpetrovic.com/wp-content/uploads/2012/02/winner-graphic.jpg)
+![](/images/winner-graphic.jpg "winner-graphic")
 
 It was a heated battle with some great comments for the books that were being given away. Sadly, though, only six people could be randomly chosen.  Thanks again to everyone for participating and giving their time and energy. For the random number generator, I used the [random.org](http://www.random.org/) website to pick out the winners. Names are as they were listed in the comments
 
