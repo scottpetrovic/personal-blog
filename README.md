@@ -20,3 +20,8 @@ This will build and run the project under a localhost. Hugo also has a watch pro
 Add a new MD file to the content > posts area. See other markdown files for reference.
 
 ## Final production build
+
+Run the command: 
+    hugo
+
+The files will be generated to the Public folder. You should be able to copy that to the web server.
