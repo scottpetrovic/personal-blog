@@ -1,6 +1,7 @@
 ---
 title: "ArtFlow Review: Awesome Drawing/Painting Android App"
 date: "2013-08-19"
+featured_image: "/images/magic-card-3.jpg"
 categories: 
   - "life"
 ---

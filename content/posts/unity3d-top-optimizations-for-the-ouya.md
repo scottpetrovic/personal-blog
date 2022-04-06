@@ -1,13 +1,16 @@
 ---
 title: "Unity3D: Top Optimizations for the Ouya"
 date: "2013-09-13"
+featured_image: "/images/ouya.jpg"
 categories: 
   - "game"
   - "life"
   - "unity3d"
 ---
 
-[![ouya](/images/ouya.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2013/09/ouya.jpg)The Ouya needs some love if you want it to purr for you. It doesn't give you any slack when it comes to performance on this little $100 box. I have been developing a game for a few months and recently started testing it for the Ouya. The game is an open world sandbox, so optimization is at the forefront of my mind. I didn't originally think Ouya was going to be able to handle it.  There have been a lot "aha" moments along the way with improving the frames per second. Here is my top optimizations you can do now to get more frames per second.
+[![ouya](/images/ouya.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2013/09/ouya.jpg)
+
+The Ouya needs some love if you want it to purr for you. It doesn't give you any slack when it comes to performance on this little $100 box. I have been developing a game for a few months and recently started testing it for the Ouya. The game is an open world sandbox, so optimization is at the forefront of my mind. I didn't originally think Ouya was going to be able to handle it.  There have been a lot "aha" moments along the way with improving the frames per second. Here is my top optimizations you can do now to get more frames per second.
 
 1. Particle System
 2. Projectors
@@ -29,41 +32,39 @@ Don't use them. Period. use a decal or ray cast a plane on a surface instead. I 
 
 Here is a small script I wrote to project a plane at the ground. I saw this idea (and most of this code) in a forum, so I went with it. I modified the example I saw slightly (too lazy to find out where the original link was).
 
-using UnityEngine;
-using System.Collections;
-
-public class DecalShadow : MonoBehaviour 
-{		
-	GameObject player;
-	MeshRenderer meshRenderer;
-
-	void Start () 
-	{
-		player = GameObject.FindGameObjectWithTag("Player");		
-		meshRenderer = gameObject.GetComponent<MeshRenderer>();		
-	}
-
-	void Update () 
-	{
-		RaycastHit hit;
-
-		// cast ray down, if it hits within 5 meters, position decal, 
-  // otherwise hide it
-		if ( Physics.Raycast(player.transform.position, 
-       -player.transform.up, out hit, 5.0f) )
-  {
-    meshRenderer.enabled = true;
-
-		 	// bring up slightly to avoid z-fighting	
-	 		transform.position = new Vector3( transform.position.x,                                         hit.point.y+0.01f,
-                                      transform.position.z);				
-		}
-		else
-		{
-			meshRenderer.enabled = false;
-		}		
-	}
-}
+    using UnityEngine;
+    using System.Collections;
+    
+    public class DecalShadow : MonoBehaviour 
+    {		
+        GameObject player;
+        MeshRenderer meshRenderer;
+    
+        void Start () 
+        {
+            player = GameObject.FindGameObjectWithTag("Player");		
+            meshRenderer = gameObject.GetComponent<MeshRenderer>();		
+        }
+    
+        void Update () 
+        {
+            RaycastHit hit;
+    
+            // cast ray down, if it hits within 5 meters, position decal, 
+            // otherwise hide it
+            if ( Physics.Raycast(player.transform.position, player.transform.up, out hit, 5.0f) )
+            {
+                meshRenderer.enabled = true;
+    
+                // bring up slightly to avoid z-fighting	
+                transform.position = new Vector3( transform.position.x, hit.point.y+0.01f, transform.position.z);
+            }
+            else
+            {
+                meshRenderer.enabled = false;
+            }
+        }
+    }
 
 ## Project Settings > Quality
 

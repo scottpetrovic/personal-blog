@@ -1,6 +1,7 @@
 ---
 title: "Mecanim: Directional Blend Trees + Concept Art For My Game"
 date: "2013-03-20"
+featured_image: "/images/movement-blend-tree.jpg"
 categories: 
   - "art"
   - "game"

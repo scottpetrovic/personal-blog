@@ -46,57 +46,57 @@ With the first iteration of the Mecanim system, there is a very limited API on w
 
 A troubling area for me was creating animation events at different points. Since there is no options right now in Mecanim, I was contemplating going back to the old system. Instead, I decided to create a script that will handle animation timing similar to animation events would. The basic setup is like the following:
 
-using UnityEngine;
-using System.Collections;
+    using UnityEngine;
+    using System.Collections;
+    
+    public class FireBallAttack : MonoBehaviour
+    {
+    
+        public GameObject fireballPrefab;
+    
+        private Animator animator;
+        private float attackAnimationLength = 4.1f;
+        private float attackDelay = 2.2f;
+    
+        public void Setup ()
+        {
+            animator = GetComponent();
+    
+            animator.SetBool("Attack", true);
+            animator.SetLayerWeight(0, 0); //normal animation layer
+            animator.SetLayerWeight(1, 0); //additive animation layer
+            animator.SetLayerWeight(2, 1); //override animation layer
+    
+            StartCoroutine("attack");
+            StartCoroutine("cleanup");
+    }
+    
+    public IEnumerator attack()
+    {	
+    
+        yield return new WaitForSeconds(attackDelay);
+    
+        poweringUp.particleSystem.Stop();		
 
-public class FireBallAttack : MonoBehaviour
-{
+        Vector3 fireballPosition = transform.position + (transform.forward\*2) + (transform.up\*2);
 
-	public GameObject fireballPrefab;
+        GameObject \_tempFireball = (GameObject)Instantiate (fireball, fireballPosition, Quaternion.Euler(transform.forward  ));
+        \_tempFireball.GetComponent().moveDirection = transform.forward \* 15.0f;
 
-	private Animator animator;
-	private float attackAnimationLength = 4.1f;
-	private float attackDelay = 2.2f;
+    }
 
-	public void Setup ()
-	{
-		animator = GetComponent();
+    public IEnumerator cleanup()
+    {
+        yield return new WaitForSeconds(attackAnimationLength);		
 
-		animator.SetBool("Attack", true);
-		animator.SetLayerWeight(0, 0); //normal animation layer
-		animator.SetLayerWeight(1, 0); //additive animation layer
-		animator.SetLayerWeight(2, 1); //override animation layer
+        //return to normal layer
+        animator.SetLayerWeight(0, 1);
+        animator.SetLayerWeight(1, 0);
+        animator.SetLayerWeight(2, 0);
+        animator.SetBool("Attack", false);	
 
-		StartCoroutine("attack");
-		StartCoroutine("cleanup");
-	}
-
-	public IEnumerator attack()
-	{	
-
-		yield return new WaitForSeconds(attackDelay);
-
-		poweringUp.particleSystem.Stop();		
-
-		Vector3 fireballPosition = transform.position + (transform.forward\*2) + (transform.up\*2);
-
-		GameObject \_tempFireball = (GameObject)Instantiate (fireball, fireballPosition, Quaternion.Euler(transform.forward  ));
-		\_tempFireball.GetComponent().moveDirection = transform.forward \* 15.0f;
-
-	}
-
-	public IEnumerator cleanup()
-	{
-		yield return new WaitForSeconds(attackAnimationLength);		
-
-		//return to normal layer
-		animator.SetLayerWeight(0, 1);
-		animator.SetLayerWeight(1, 0);
-		animator.SetLayerWeight(2, 0);
-		animator.SetBool("Attack", false);	
-
-	}
-}
+        }
+    }
 
 Without going line by line, here is a breakdown on what the code is doing:
 
