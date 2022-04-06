@@ -39,7 +39,7 @@ Certain topics were very engrossing like the 2D sprite character, RPG GUI system
 
 Some topics I haven't seen before were the RPG GUI system and the sprite animation system. They are both pretty code heavy, but I thought they were particularly interesting. I haven't seen many "sophisticated" GUI system examples or tutorials, so it was nice to see how the writer architected the code to make it readable and flexible with the different screens.
 
-\[caption id="attachment\_1676" align="aligncenter" width="540" caption="screenshot from GUI RPG system"\]![Hot Shots books GUI RPG system](/images/gui-hotshots-book.jpg "gui-hotshots-book")\[/caption\]
+![Hot Shots books GUI RPG system](/images/gui-hotshots-book.jpg "gui-hotshots-book")
 
 The first chapter that goes over the 2D sprite framework was also pretty good - especially the engine that managed all of the different states of each animation.
 

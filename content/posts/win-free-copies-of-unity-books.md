@@ -1,6 +1,7 @@
 ---
 title: "Win Free Copies of Unity Books"
 date: "2012-02-13"
+featured_image: "/images/unity-3-essentials-cover.jpg"
 categories: 
   - "unity3d"
 ---

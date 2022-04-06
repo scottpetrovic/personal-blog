@@ -1,6 +1,7 @@
 ---
 title: "Unity3d: Understanding Radars"
 date: "2011-05-24"
+featured_image: "/images/radar-diagram.jpg"
 categories: 
   - "life"
 ---

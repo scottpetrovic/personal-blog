@@ -1,6 +1,7 @@
 ---
 title: "Large enemy: Bang-Bang"
 date: "2011-06-01"
+featured_image: "/images/bang-bang-1.jpg"
 categories: 
   - "art"
   - "game"

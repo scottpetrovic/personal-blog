@@ -1,6 +1,7 @@
 ---
 title: "Getting Started with Digital Music Recording: Part 2"
 date: "2011-10-01"
+featured_image: "/images/cello-detail.jpg"
 categories: 
   - "game"
   - "music-recording"

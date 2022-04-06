@@ -1,6 +1,7 @@
 ---
 title: "Getting started with digital music recording: Part 1"
 date: "2011-09-26"
+featured_image: "/images/juno-di.jpg"
 categories: 
   - "computer"
   - "music-recording"
@@ -37,7 +38,7 @@ To get the instruments on the keyboard to work right, I needed two things
 
 Audio interfaces are boxes that you plug instruments into and it can convert an analog signal to a digital signal. That translates to making my keyboard sounds be heard by the computer. Not only can it take my keyboard's sound, but it can take an electric guitar, microphone, or a number of different input devices.
 
-\[caption id="attachment\_1604" align="aligncenter" width="500" caption="Lexicon Audio Interface (only $60!)"\]![](/images/audio-interface.jpg "audio-interface")\[/caption\]
+![](/images/audio-interface.jpg "audio-interface")
 
  
 

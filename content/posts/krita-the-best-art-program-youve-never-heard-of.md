@@ -1,6 +1,7 @@
 ---
 title: "Krita: The Best Art Program You've Never Heard Of"
 date: "2014-02-06"
+featured_image: "/images/krita-mascot.jpg"
 categories: 
   - "art"
   - "computer"
@@ -8,7 +9,9 @@ categories:
   - "life"
 ---
 
-![](/images/krita-mascot.jpg)No, I didn't draw that - it is [Krita's](http://krita.org/) mascot!
+![](/images/krita-mascot.jpg)
+
+No, I didn't draw that - it is [Krita's](http://krita.org/) mascot!
 
 Krita is a free open source software designed specifically for digital painters, illustrators, and concept artists. It has the usual photo editing capabilities like cropping and image adjustments, but really excels with its painting and art workflow.
 

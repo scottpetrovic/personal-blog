@@ -1,11 +1,12 @@
 ---
 title: "Book Review: Unity 4.X Game AI Programming"
 date: "2013-08-29"
+featured_image: "/images/3400OT-239x300.jpg"
 categories: 
   - "life"
 ---
 
-[![Game AI Programming](/images/3400OT-239x300.jpg)](http://blog.scottpetrovic.com/wp-content/uploads/2013/08/3400OT.jpg)
+![Game AI Programming](/images/3400OT-239x300.jpg)
 
 _Disclaimer: I was given this book as a review copy from Packt Publishing. If I didn't like this book, I wouldn't be writing a review. That is a little spoiler of what is to come._
 

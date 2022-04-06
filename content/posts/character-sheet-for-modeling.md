@@ -1,6 +1,7 @@
 ---
 title: "Character sheet for modeling"
 date: "2012-01-03"
+featured_image: "/images/witch-character-detail.jpg"
 categories: 
   - "blender"
   - "computer"

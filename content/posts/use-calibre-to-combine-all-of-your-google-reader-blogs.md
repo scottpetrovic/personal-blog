@@ -1,6 +1,7 @@
 ---
 title: "Use Calibre to combine all of your Google Reader blogs"
 date: "2011-07-16"
+featured_image: "/images/calibre-logo.jpg"
 categories: 
   - "life"
 ---

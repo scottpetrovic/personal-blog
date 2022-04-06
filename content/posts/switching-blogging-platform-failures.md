@@ -1,6 +1,7 @@
 ---
 title: "Switching blogging platform failures"
 date: "2020-04-22"
+featured_image: "/images/gatsby-logo.png"
 categories: 
   - "life"
 ---

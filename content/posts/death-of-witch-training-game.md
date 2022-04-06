@@ -1,6 +1,7 @@
 ---
 title: "Death of Witch Training Game?"
 date: "2011-12-04"
+featured_image: "/images/51x0-qlfAPL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
 categories: 
   - "blender"
   - "computer"

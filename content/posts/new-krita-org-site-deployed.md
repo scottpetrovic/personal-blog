@@ -1,6 +1,7 @@
 ---
 title: "New Krita.org Site Deployed!"
 date: "2014-08-09"
+featured_image: "/images/krita-site-thumb1.jpg"
 categories: 
   - "interaction-design"
   - "web-design"
