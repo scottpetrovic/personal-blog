@@ -1,6 +1,7 @@
 ---
 title: "Stepping in the shoes of the Disney CEO for a week"
 date: "2020-05-05"
+featured_image: "/images/ride-of-lifetime-1.png"
 categories: 
   - "life"
 ---
