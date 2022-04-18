@@ -3,9 +3,11 @@
 <div class="post">
     <h1>{{ .Title }}</h1>
 
-    {{ .Date | time.Format ":date_long" }}
-    <em style="margin-left: 2rem">Length: {{ .ReadingTime }} min</em>
-    <a href="/" style="margin-left: 2rem">Back to Posts</a>
+    <div class="tertiary-data">
+        <span>{{ .Date | time.Format ":date_long" }}</span>
+        <span style="font-style:italic">Length: {{ .ReadingTime }} min</em></span>
+        <span><a href="/">Back to Posts</a></span>
+    </div>
 
     {{ .Content }}
 </div>

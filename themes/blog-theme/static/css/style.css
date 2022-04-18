@@ -33,6 +33,8 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 300%;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 h2, h3 {
@@ -86,6 +88,13 @@ ul.main-menu {
   display: inline-block;
   margin: 0;
 }
+@media only screen and (max-width: 800px) {
+  ul.main-menu {
+   padding: 0;
+  }
+}
+
+
 ul.main-menu li {
   list-style: none;
   display: inline-block;
@@ -105,6 +114,14 @@ nav.site-nav {
   box-shadow: 0px 4px 9px 0px #b3b3b3;
   padding: 1rem;
 }
+@media only screen and (max-width: 800px) {
+  nav.site-nav {
+    text-align: center;
+  }
+}
+
+
+
 nav.site-nav a {
   text-decoration: none;
 }
@@ -142,16 +159,46 @@ footer p {
   box-shadow: 3px 3px 3px #868686;
   margin: auto;
 }
+@media only screen and (max-width: 800px) {
+  .thumbnail-container {
+    width: 100%;
+    height: 230px;
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
 
 
 .post {
   margin: 0 19%;
 }
+@media only screen and (max-width: 800px) {
+  .post {
+    margin: 0 8%;
+  }
+}
+
+.tertiary-data span {
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 800px) {
+  .tertiary-data {
+    line-height: 157%;
+    text-align: center;
+  }
+
+  .post .tertiary-data span {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+
 
 .posts-listing {
   display: grid;
   column-gap: 4%;
-  margin: 2%;
+  margin: 0%;
 }
 .posts-listing a {
   color: black;
@@ -175,6 +222,12 @@ footer p {
   border: 1px solid #e9e9e9;
   border-radius: 3px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .post-snippet {
+   padding: 1rem;
+  }
 }
 
 .post-snippet h2 {
