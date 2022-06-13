@@ -17,7 +17,7 @@ This will build and run the project under a localhost. Hugo also has a watch pro
 
 ## Adding or editing posts
 
-Add a new MD file to the content > posts area. See other markdown files for reference.
+Add a new MD file to the content > posts area. See other markdown files for reference. If you are running the build, the project should automatically update.
 
 ## Final production build
 
