@@ -24,7 +24,7 @@ Packages needed for Qt frameowork:
     sudo apt install libkf5archive-dev libkf5completion-dev libkf5config-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf5i18n-dev libkf5itemmodels-dev  libkf5itemviews-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5kiocore5 qtbase5-dev libqt5svg5-dev qtdeclarative5-dev libqt5x11extras5-dev libqt5opengl5-dev qtmultimedia5-dev qttools5-dev
 
 Other packages:
-    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev
+    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev libfontconfig1-dev
 
 
 
@@ -71,6 +71,28 @@ cmake --build . --config RelWithDebInfo --target ext_lager
 What this does is goes into our source files, looks at the library to build, builds it, then copies the files to the install folder. 
 
 NOTE: ffmpeg is failing to build with error "No package metadata was found for meson". 
+
+
+## Step 3.1 Building Dependency - HarfBuzz
+
+You need a specific version of Harfbuzz...which is a lot newer than what is in ubuntu 20.04.
+
+1. Download the 4.4.1 release from here (get the tar.xz archive and extrace it anywhere): https://github.com/harfbuzz/harfbuzz/releases/tag/4.4.1
+2. Extract the folder in your downloads
+3. Make a new folder called something like "harfbuzz-build". Open the termaimal up in this build folder
+4. run the cmake command in it to get it ready: cmake -S ../harfbuzz-4.4.1 -B .
+5. If all is good with that build it: sudo make install
+
+We need the sudo...otherwise the terminal won't have access to copy the final files to the /usr/local/ folder.
+
+If we go back to and try to build Krita, it should say Harfbuzz is found.
+
+
+## Step 3.2 Building Dependency - Unibreak
+
+https://github.com/adah1972/libunibreak/releases/tag/libunibreak_5_1
+
+
 
 
 ### Step 4: Building Krita
