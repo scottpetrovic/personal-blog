@@ -116,7 +116,7 @@ Go into the build directory. This where we will build Krita
     cd ~/git/krita/build
 
 Run the following command. This will show us if we have everything we need to actually build Krita.
-    cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5 -DEXTERNALS_DOWNLOAD_DIR=$HOME/git/krita/deps-download
+    cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5 -DEXTERNALS_DOWNLOAD_DIR=$HOME/git/krita/deps-download -DKRITA_ENABLE_PCH=off -DHAVE_MEMORY_LEAK_TRACKER=FALSE -DHIDE_SAFE_ASSERTS=ON
 
 There is pretty much a 100% chance this isn't going to go to completion when you first run in. What follows is probably the most difficult part of getting Krita with getting all the dependencies working.
 
