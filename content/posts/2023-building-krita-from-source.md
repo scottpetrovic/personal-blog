@@ -24,7 +24,7 @@ Packages needed for Qt frameowork:
     sudo apt install libkf5archive-dev libkf5completion-dev libkf5config-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf5i18n-dev libkf5itemmodels-dev  libkf5itemviews-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5kiocore5 qtbase5-dev libqt5svg5-dev qtdeclarative5-dev libqt5x11extras5-dev libqt5opengl5-dev qtmultimedia5-dev qttools5-dev
 
 Other packages:
-    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev libfontconfig1-dev
+    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev libfontconfig1-dev libfribidi-dev
 
 
 
@@ -61,21 +61,27 @@ Run this command to set a variable:
     BUILDROOT=~/git/krita
 
 Then:
-    cmake ../source/3rdparty -DINSTALL_ROOT=$BUILDROOT/install -DEXTERNALS_DOWNLOAD_DIR=$BUILDROOT/deps-download -DCMAKE_INSTALL_PREFIX=BUILDROOT/install
+    cmake ../source/3rdparty -DINSTALL_ROOT=$BUILDROOT/install -DEXTERNALS_DOWNLOAD_DIR=$BUILDROOT/deps-download -DCMAKE_INSTALL_PREFIX=BUILDROOT/install 
 
 
 That sets up the cmake build settings. Now we need to actually build the dependencies like this:
 
 cmake --build . --config RelWithDebInfo --target ext_lager
+cmake --build . --config RelWithDebInfo --target ext_unibreak
+cmake --build . --config RelWithDebInfo --target ext_xsimd
 
-What this does is goes into our source files, looks at the library to build, builds it, then copies the files to the install folder. 
+
+What this does is goes into our source files, looks up the instructions to build the library, builds it, then copies the files to the install folder. When you build Krita, Krita will look in the install folder for these libraries, so you don't have to worry about copying these dependencies to anything to a /user/local.
+
 
 NOTE: ffmpeg is failing to build with error "No package metadata was found for meson". 
+-- need to retry this after installing meson
 
+Note: mlt is failing to build with error "Malformed value in cross file variable c". Issue is related to ext_libtheora
 
 ## Step 3.1 Building Dependency - HarfBuzz
 
-You need a specific version of Harfbuzz...which is a lot newer than what is in ubuntu 20.04.
+You need a specific version of Harfbuzz...which is a lot newer than what is in ubuntu 20.04. There is no "ext_dep" type build in the source code's 3rd party folder, so we will build and install in manually. This is a good process to see and understand in case other libraries need to be compiled from source after this is written.
 
 1. Download the 4.4.1 release from here (get the tar.xz archive and extrace it anywhere): https://github.com/harfbuzz/harfbuzz/releases/tag/4.4.1
 2. Extract the folder in your downloads
@@ -87,10 +93,19 @@ We need the sudo...otherwise the terminal won't have access to copy the final fi
 
 If we go back to and try to build Krita, it should say Harfbuzz is found.
 
+## Step 3.2 Building dependency - Meson
+Meson is another build system. The package that comes with Ubuntu 20.04 is too old, so we need to get a newer one. The version that we need as of this writing is 0.57.1. This will help build the MLT library.
 
-## Step 3.2 Building Dependency - Unibreak
+1. Download: https://github.com/mesonbuild/meson/releases/download/0.57.1/meson-0.57.1.tar.gz
+2. Unzip that in the downloads folder. Make a new folder right by the extracted folder called "build"
+3. Go into that folder and right click, start terminal
+4. Build with command: ln -s ../meson-0.57.1/meson.py .
+5. Make a new folder in our build-deps folder called "extra-build-tools
+6. Copy the meson.py file to the extra-build-tools folder.
 
-https://github.com/adah1972/libunibreak/releases/tag/libunibreak_5_1
+Add this new location to our path so the build system can find it.
+
+    export PATH=$(pwd)/extra-build-tools:$PATH
 
 
 
@@ -101,7 +116,7 @@ Go into the build directory. This where we will build Krita
     cd ~/git/krita/build
 
 Run the following command. This will show us if we have everything we need to actually build Krita.
-    cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5
+    cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5 -DEXTERNALS_DOWNLOAD_DIR=$HOME/git/krita/deps-download
 
 There is pretty much a 100% chance this isn't going to go to completion when you first run in. What follows is probably the most difficult part of getting Krita with getting all the dependencies working.
 
