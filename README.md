@@ -4,8 +4,10 @@ This is a personal blog. It is built using Hugo. Hugo is a static site generator
 
 ## Dependencies
 
-- Go: Used for hugo buiding
-- Hugo: Command line tool used to build project
+- Hugo: Command line tool used to build project'. https://github.com/gohugoio/hugo
+
+Linux command: sudo apt install hugo
+Windows: Hugo is a command line tool. Download the executable (exe) file and put it in a place where you can run it. This is usually done by adding it to your environment variables, or putting the executable in a location that already is in your environment variables. I have a location of C:\platform-tools that I put all my commonly needed tools in.
 
 ## Building and launching
 
