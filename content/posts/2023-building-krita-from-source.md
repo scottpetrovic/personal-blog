@@ -10,6 +10,8 @@ We need to currently use Ubuntu 20.04. One of the big reasons is that the Python
 You can get the Ubuntu 20.04 (Focal Fossa) image here:
 https://releases.ubuntu.com/focal/
 
+Windows: You can use the program "Rufus" to burn the ISO to a USB for installing
+Ubuntu: You can use the program "Startup Disk Creator" to burn the USB for installing
 
 ## Step 1: OS packages for building
 Before we can start any building or installing, our OS needs to have some tools to build and work with code. This is the command I use to install everything as a base.
