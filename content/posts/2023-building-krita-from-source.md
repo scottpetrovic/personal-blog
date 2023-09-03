@@ -24,7 +24,7 @@ Packages needed for Qt frameowork:
     sudo apt install libkf5archive-dev libkf5completion-dev libkf5config-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf5i18n-dev libkf5itemmodels-dev  libkf5itemviews-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5kiocore5 qtbase5-dev libqt5svg5-dev qtdeclarative5-dev libqt5x11extras5-dev libqt5opengl5-dev qtmultimedia5-dev qttools5-dev
 
 Other packages:
-    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev
+    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev
 
 
 
@@ -67,8 +67,6 @@ Then:
 That sets up the cmake build settings. Now we need to actually build the dependencies like this:
 
 cmake --build . --config RelWithDebInfo --target ext_lager
-cmake --build . --config RelWithDebInfo --target ext_ffmpeg
-
 
 What this does is goes into our source files, looks at the library to build, builds it, then copies the files to the install folder. 
 
