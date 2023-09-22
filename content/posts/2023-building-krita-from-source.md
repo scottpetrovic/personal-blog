@@ -5,13 +5,12 @@ draft: true
 ---
 
 ## Step 0: OS
-We need to currently use Ubuntu 20.04. One of the big reasons is that the Python version that Krita uses is 3.8. It needs to be that exact version, otherwise there are issues building dependencies. The OS itself has a dependency on a specific version of Python. Changing the Python version could also likely destroy the OS. 
+We need to currently use Ubuntu 22.04. One of the big reasons is that the Python version that Krita uses is 3.9. It needs to be that exact version, otherwise there are issues building dependencies. The OS itself has a dependency on a specific version of Python. Changing the Python version could also likely destroy the OS. 
 
-You can get the Ubuntu 20.04 (Focal Fossa) image here:
-https://releases.ubuntu.com/focal/
+Download the Ubuntu 22.04 ISO image from their website.
 
-Windows: You can use the program "Rufus" to burn the ISO to a USB for installing
-Ubuntu: You can use the program "Startup Disk Creator" to burn the USB for installing
+- Windows: You can use the program "Rufus" to burn the ISO to a USB for installing
+- Ubuntu: You can use the program "Startup Disk Creator" to burn the USB for installing
 
 
 ## Step 1: OS packages for building
@@ -24,8 +23,7 @@ Packages needed for Qt frameowork:
     sudo apt install libkf5archive-dev libkf5completion-dev libkf5config-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf5i18n-dev libkf5itemmodels-dev  libkf5itemviews-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5kiocore5 qtbase5-dev libqt5svg5-dev qtdeclarative5-dev libqt5x11extras5-dev libqt5opengl5-dev qtmultimedia5-dev qttools5-dev
 
 Other packages:
-    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev freetype lib-freetype-dev libfontconfig1-dev libfribidi-dev
-
+    sudo apt install gettext libcurl4-gnutls-dev libtiff5-dev libjpeg-turbo8-dev libeigen3-dev libxi-dev libboost-all-dev libopenexr-dev libexiv2-dev  libgsl-dev liblcms2-dev libpoppler-qt5-dev shared-mime-info libraw-dev libfftw3-dev libopencolorio-dev vc-dev libpng-dev python3-sip-dev python3-pyqt5 pyqt5-dev libquazip5-dev libmypaint-dev libfontconfig1-dev libfribidi-dev
 
 
 ## Step 2: Start creating folders and download Krita source code
@@ -49,8 +47,9 @@ krita folder
 - deps-build folder
 - deps-download folder
 
-So we will end up with 5 folders in the end inside the ~/git/krita folder
+command that create all these folders: mkdir build install deps-build deps-download
 
+So we will end up with 5 folders in the end inside the ~/git/krita folder
 
 ## Step 3: CMake configuration Part 1 - Dependencies
 
@@ -86,7 +85,7 @@ You need a specific version of Harfbuzz...which is a lot newer than what is in u
 
 1. Download the 4.4.1 release from here (get the tar.xz archive and extrace it anywhere): https://github.com/harfbuzz/harfbuzz/releases/tag/4.4.1
 2. Extract the folder in your downloads
-3. Make a new folder called something like "harfbuzz-build". Open the termaimal up in this build folder
+3. Make a new folder called something like "harfbuzz-build". Open the terminal up in this build folder
 4. run the cmake command in it to get it ready: cmake -S ../harfbuzz-4.4.1 -B .
 5. If all is good with that build it: sudo make install
 
@@ -94,8 +93,8 @@ We need the sudo...otherwise the terminal won't have access to copy the final fi
 
 If we go back to and try to build Krita, it should say Harfbuzz is found.
 
-## Step 3.2 Building dependency - Meson
-Meson is another build system. The package that comes with Ubuntu 20.04 is too old, so we need to get a newer one. The version that we need as of this writing is 0.57.1. This will help build the MLT library.
+## Step 3.2 Building dependency - Meson (optional)
+Meson is another build system. The package that comes with Ubuntu 22.04 is too old, so we need to get a newer one. The version that we need as of this writing is 0.57.1. This will help build the MLT library.
 
 1. Download: https://github.com/mesonbuild/meson/releases/download/0.57.1/meson-0.57.1.tar.gz
 2. Unzip that in the downloads folder. Make a new folder right by the extracted folder called "build"
@@ -122,8 +121,6 @@ Run the following command. This will show us if we have everything we need to ac
     cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5 -DEXTERNALS_DOWNLOAD_DIR=$HOME/git/krita/deps-download -DKRITA_ENABLE_PCH=off -DHAVE_MEMORY_LEAK_TRACKER=FALSE -DHIDE_SAFE_ASSERTS=ON
 
 There is pretty much a 100% chance this isn't going to go to completion when you first run in. What follows is probably the most difficult part of getting Krita with getting all the dependencies working.
-
-
 
 
 
