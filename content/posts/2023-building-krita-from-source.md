@@ -61,14 +61,15 @@ Run this command to set a variable:
     BUILDROOT=~/git/krita
 
 Then:
+
     cmake ../source/3rdparty -DINSTALL_ROOT=$BUILDROOT/install -DEXTERNALS_DOWNLOAD_DIR=$BUILDROOT/deps-download -DCMAKE_INSTALL_PREFIX=BUILDROOT/install 
 
 
 That sets up the cmake build settings. Now we need to actually build the dependencies like this:
 
-cmake --build . --config RelWithDebInfo --target ext_lager
-cmake --build . --config RelWithDebInfo --target ext_unibreak
-cmake --build . --config RelWithDebInfo --target ext_xsimd
+    cmake --build . --config RelWithDebInfo --target ext_lager
+    cmake --build . --config RelWithDebInfo --target ext_unibreak
+    cmake --build . --config RelWithDebInfo --target ext_xsimd
 
 
 What this does is goes into our source files, looks up the instructions to build the library, builds it, then copies the files to the install folder. When you build Krita, Krita will look in the install folder for these libraries, so you don't have to worry about copying these dependencies to anything to a /user/local.
@@ -113,12 +114,72 @@ Add this new location to our path so the build system can find it.
 ### Step 4: Building Krita
 
 Go into the build directory. This where we will build Krita
+
     cd ~/git/krita/build
 
 Run the following command. This will show us if we have everything we need to actually build Krita.
+
     cmake -DCMAKE_INSTALL_PREFIX=$HOME/git/krita/install $HOME/git/krita/source -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYQT_SIP_DIR_OVERRIDE=/usr/share/sip/PyQt5 -DEXTERNALS_DOWNLOAD_DIR=$HOME/git/krita/deps-download -DKRITA_ENABLE_PCH=off -DHAVE_MEMORY_LEAK_TRACKER=FALSE -DHIDE_SAFE_ASSERTS=ON
 
 There is pretty much a 100% chance this isn't going to go to completion when you first run in. What follows is probably the most difficult part of getting Krita with getting all the dependencies working.
+
+
+
+
+
+### Temporary Notes
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates
+
+sudo apt-get install gnupg
+sudo apt-get install software-properties-common
+sudo apt-get install wget
+sudo apt-get install rsync # probably don't need these
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+
+
+Note: Trying to run multiple commands in one line with && are having odd lock issues with dpkg
+      Running the commands individually seems to clear thisup
+sudo apt-get update 
+sudo apt-get upgrade -y
+sudo add-apt-repository -y ppa:ubuntu-mozilla-security/rust-updates
+sudo apt-get update
+sudo apt-get install -y cargo rustc
+sudo apt-get install -y locales
+sudo apt-get install -y automake gcc-11 g++-11 libxml-parser-perl libpq-dev libaio-dev
+sudo apt-get install -y bison gettext
+sudo apt-get install gperf libasound2-dev libatkmm-1.6-dev libbz2-dev libcairo-perl libcap-dev libcups2-dev libdbus-1-dev
+sudo apt-get install libdrm-dev libegl1-mesa-dev libfontconfig1-dev libfreetype6-dev libgcrypt-dev libgl1-mesa-dev
+sudo apt-get install libglib-perl libgsl0-dev libgsl0-dev gstreamer1.0-alsa libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+sudo apt-get install libgtk2-perl libjpeg-dev libnss3-dev libpci-dev libpng-dev libpulse-dev libssl-dev 
+sudo apt-get install libgstreamer-plugins-good1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base
+
+
+sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly libtiff5-dev libudev-dev libwebp-dev flex libmysqlclient-dev
+
+# Mesa libraries for everything to use
+sudo apt-get install libx11-dev libxkbcommon-x11-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-res0-dev libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxfixes-dev libxi-dev libxrandr-dev libxrender-dev libxss-dev libxtst-dev mesa-common-dev libxcb-xfixes0-dev libffi-dev
+
+
+
+# Krita's dependencies (libheif's avif plugins) need meson and ninja, both aren't available in binary form for 16.04
+# The deadsnakes PPA packs setuptools and pip inside python3.9-venv, let's deploy it manually
+sudo add-apt-repository -y ppa:deadsnakes/ppa  && sudo apt-get update 
+sudo apt-get install -y python3.9 python3.9-dev python3.9-venv 
+
+
+python3.9 -m ensurepip 
+python3.9 -m pip install meson ninja
+
+
+
+# use newer version of gcc as some libraries need these
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 10 && sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 20 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 10 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 20
+
+
+
+
+
 
 
 
