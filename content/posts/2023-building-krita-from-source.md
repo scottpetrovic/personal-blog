@@ -89,6 +89,10 @@ You need a specific version of Harfbuzz...which is a lot newer than what is in u
 4. run the cmake command in it to get it ready: cmake -S ../harfbuzz-4.4.1 -B .
 5. If all is good with that build it: sudo make install
 
+For some reason one of the files do not get installed, so we need to do it manually. Otherwise building krita will quickly give you an error:
+
+    sudo cp ~/Downloads/harfbuzz-4.4.1/src/hb-ft.h /usr/local/include/harfbuzz/
+
 We need the sudo...otherwise the terminal won't have access to copy the final files to the /usr/local/ folder.
 
 If we go back to and try to build Krita, it should say Harfbuzz is found.
