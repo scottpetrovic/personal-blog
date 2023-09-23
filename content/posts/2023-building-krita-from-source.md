@@ -69,6 +69,18 @@ That sets up the cmake build settings. Now we need to actually build the depende
     cmake --build . --config RelWithDebInfo --target ext_lager
     cmake --build . --config RelWithDebInfo --target ext_unibreak
     cmake --build . --config RelWithDebInfo --target ext_xsimd
+    cmake --build . --config RelWithDebInfo --target ext_openssl
+    cmake --build . --config RelWithDebInfo --target ext_webp
+    cmake --build . --config RelWithDebInfo --target ext_openjpeg
+    cmake --build . --config RelWithDebInfo --target ext_nasm
+    cmake --build . --config RelWithDebInfo --target ext_tiff
+    cmake --build . --config RelWithDebInfo --target ext_boost
+    cmake --build . --config RelWithDebInfo --target ext_fftw3
+    cmake --build . --config RelWithDebInfo --target ext_eigen3
+    cmake --build . --config RelWithDebInfo --target ext_expat
+    cmake --build . --config RelWithDebInfo --target ext_exiv2
+    cmake --build . --config RelWithDebInfo --target ext_lcms2
+    cmake --build . --config RelWithDebInfo --target ext_giflib
 
 
 What this does is goes into our source files, looks up the instructions to build the library, builds it, then copies the files to the install folder. When you build Krita, Krita will look in the install folder for these libraries, so you don't have to worry about copying these dependencies to anything to a /user/local.
