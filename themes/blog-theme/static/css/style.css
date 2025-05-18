@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700');
+
+
 /* LAYOUT */
 
 * {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #403f58;
+}
+
+.audio-player {
+  background: #f1f3f4;
+  border-radius: 1.25rem;
+}
+.audio-player figcaption {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 
 audio {
@@ -14,10 +28,7 @@ audio {
 
 figure {
   text-align: center;
-}
-figcaption {
-  margin: 0.5rem;
-  font-style: italic;
+  margin: 0.5rem 0rem;
 }
 
 body {
@@ -32,16 +43,15 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 300%;
-  text-align: center;
-  margin-bottom: 2rem;
+  font-size: 350%;
+  margin-bottom: 0.5rem;
 }
 
 h2, h3 {
   margin: 1rem 0;
   margin-top: 3rem;
   font-size: 240%;
-
+  border-bottom: 2px dotted #b5b5b5;
 }
 
 h3 {
@@ -49,37 +59,88 @@ h3 {
 }
 
 p {
-  line-height: 141%;
-  font-size: 1.25rem;
+  line-height: 150%;
+  font-size: 1.2rem;
 }
 
-ol, ul, li {
-  font-size: 109%;
-  line-height: 140%;
+ol, ul {
+  line-height: 155%;
+  border-top: 1px dotted rgb(184, 184, 184);
+  border-bottom: 1px dotted rgb(170, 170, 170);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+
+
+/* #table-of-contents {
+  position: sticky;
+  top: 0;
+} */
+#TableOfContents ul {
+  border-top: 0;
+  border-bottom: 0;
+  list-style: lower-roman;
+  padding: 1.2rem;
+}
+#TableOfContents li {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+#TableOfContents ul a {
+  background: none;
+}
+
+
+
+ol li ol, ul li ul {
+  border: 0;
+  padding: 0;
+}
+
+ul ul {
+  margin-left: 3rem;
+}
+
+li {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+ol {
+  counter-reset:item;
+}
+
 
 a {
-  color: #44a9c2;
+  color: #5e8da4;
+  background: #eff6ff;
+  padding: 0.25rem 0.5rem;
 }
 a:hover {
   text-decoration: none;
+  background: #f7faff;
 }
 
 img {
   max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 2px 8px 0px grey;
 }
 
 pre {
   background: #4a5765;
-  padding: 1.5rem;
+  padding: 1rem;
   color: white;
   border-radius: 8px;
-  overflow: auto;
+  text-wrap: pretty;
 }
 
 code {
-    color: #d1e0e2;
-    line-height: 148%;
+  color: #d1e0e2;
+  line-height: 148%;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
 
 
@@ -87,6 +148,7 @@ code {
 ul.main-menu {
   display: inline-block;
   margin: 0;
+  padding: 0;
 }
 @media only screen and (max-width: 800px) {
   ul.main-menu {
@@ -101,8 +163,9 @@ ul.main-menu li {
   margin: 0 1rem;
 }
 ul.main-menu li a {
-  color: white;
-  font-size: 1rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    font-size: 19px;
 }
 ul.main-menu li a:hover {
   text-decoration: underline;
@@ -110,9 +173,14 @@ ul.main-menu li a:hover {
 
 
 nav.site-nav {
-  background: rgb(82,144,208);
-  box-shadow: 0px 4px 9px 0px #b3b3b3;
-  padding: 1rem;
+    background: #ddddf8;
+    background: linear-gradient(90deg, 
+      rgba(242,183,255,1) 0%, 
+      rgba(255,144,144,1) 41%,
+      rgba(168,242,255,1) 100%,
+      rgba(255,228,189,1) 100%);
+
+      box-shadow: 0px 2px 7px #a3a3a3;
 }
 @media only screen and (max-width: 800px) {
   nav.site-nav {
@@ -124,30 +192,33 @@ nav.site-nav {
 
 nav.site-nav a {
   text-decoration: none;
+  background: none;
+  color: white;
 }
 
 
 .logo {
   font-family: 'Saira Extra Condensed', sans-serif;
-
-  font-size: 1.8rem;
-  color: white;
+  padding: 0.2rem 2rem;
+  font-size: 2.0rem;
+  font-weight: bold;
 }
 
 .content {
-  max-width: 1100px;
-  margin: auto;
-  margin-bottom: 2rem;
-  margin-top: 5rem;
+  max-width: 1000px;
+  margin: auto; /* centers content */
+  word-break: break-word; /* helps reduce long links */
 }
 
 footer {
   margin-top: 5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 footer p {
   color: #a8a5a5;
+  font-size: 0.9rem;
 }
 
 
@@ -155,9 +226,11 @@ footer p {
 
 .thumbnail-container {
   width: 15rem;
-  height: 15rem;
-  box-shadow: 3px 3px 3px #868686;
+  height: 21rem;
+  box-shadow: 3px 3px 3px #b8cfea;
   margin: auto;
+  border: 2px dotted #9aeccb;
+  border-radius: 5px;
 }
 @media only screen and (max-width: 800px) {
   .thumbnail-container {
@@ -168,18 +241,19 @@ footer p {
   }
 }
 
-
 .post {
-  margin: 0 19%;
+  margin: 1%;
 }
 @media only screen and (max-width: 800px) {
   .post {
-    margin: 0 8%;
+    margin: 0 5%;
   }
 }
 
 .tertiary-data span {
   margin-right: 2rem;
+  color: #9b9898;
+  font-style: italic;
 }
 @media only screen and (max-width: 800px) {
   .tertiary-data {
@@ -203,6 +277,7 @@ footer p {
 .posts-listing a {
   color: black;
   font-weight: normal;
+  background: none;
 }
 .posts-listing a:hover {
   text-decoration: none;
@@ -219,7 +294,6 @@ footer p {
 
 .post-snippet {
   padding: 2rem;
-  border: 1px solid #e9e9e9;
   border-radius: 3px;
   margin-bottom: 1rem;
 }
@@ -247,14 +321,20 @@ footer p {
 }
 .card article:hover {
   background: #f2f3f3;
+  background: linear-gradient(90deg, 
+    rgba(251,232,255,1) 0%, 
+    rgba(255,228,228,1) 41%, 
+    rgba(222,250,255,1) 100%, 
+    rgba(255,228,189,1) 100%);
+
 }
 .card article:hover h2 {
-  text-decoration: underline;
+  
 }
 
 .preview {
   display: grid;
-  column-gap: 25px;
+  column-gap: 3rem;
 }
 @media only screen and (max-width: 800px) {
   .preview {
